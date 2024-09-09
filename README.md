@@ -1,46 +1,24 @@
-# Website
+# SKD CPNS
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+## Deskripsi
 
-### Installation
+SKD CPNS adalah sebuah aplikasi web yang menyediakan ringkasan dan materi latihan untuk tes Seleksi Kompetensi Dasar (SKD) CPNS. Aplikasi ini dirancang untuk membantu calon peserta ujian CPNS dalam mempersiapkan tes mereka dengan lebih baik.
 
-```
-$ yarn
-```
+## Fitur
 
-### Local Development
+- **Ringkasan SKD**: Dapatkan ringkasan materi SKD CPNS.
+- **Aplikasi Latihan**: Coba berbagai latihan untuk menguji pemahaman Anda.
+- **Dokumentasi**: Tautan ke dokumentasi dan panduan lainnya.
 
-```
-$ yarn start
-```
+## Instalasi
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+### Prerequisites
 
-### Build
+Pastikan Anda telah menginstal [Node.js](https://nodejs.org/) dan [Yarn](https://yarnpkg.com/).
 
-```
-$ yarn build
-```
+### Clone Repository
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Clone repository ini ke mesin lokal Anda:
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
-"# docs-cpns" 
-"# RingkasanCpnsSKD" 
-"# RingkasanCpnsSKD" 
-"# ringkasan-cpns-skd.gthub.io" 
-# skd-cpns
+```bash
+git clone https://github.com/zanwaar/skd-cpns.git
