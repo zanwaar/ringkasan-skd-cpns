@@ -10,7 +10,7 @@ export default function About(): JSX.Element {
     >
       <div className={styles.aboutContainer}>
         <header className={styles.heroBanner}>
-          <h1>Latihan Soal</h1>
+          <h1>About Us</h1>
         </header>
         <main>
           <section className={styles.aboutSection}>

@@ -65,7 +65,7 @@ const config: Config = {
           position: "left",
           label: "Ringkasan SKD CPNS",
         },
-        { to: "/about", label: "Aplikasi Latihan", position: "left" },
+        { to: "/about", label: "About Us", position: "left" },
         {
           href: "https://github.com/zanwaar/ringkasan-cpns-skd",
           label: "GitHub",
