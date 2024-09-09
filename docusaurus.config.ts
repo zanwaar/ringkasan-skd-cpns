@@ -11,9 +11,9 @@ const config: Config = {
   url: "https://zanwaar.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub Pages deployment, it is often '/<projectName>/'
-  baseUrl: "/ringkasan-cpns-skd/",
-  projectName: 'ringkasan-cpns-skd',
-  organizationName: 'zanwaar',
+  baseUrl: "/skd-cpns/",
+  projectName: "skd-cpns",
+  organizationName: "zanwaar",
   trailingSlash: false,
 
   onBrokenLinks: "throw",
