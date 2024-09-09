@@ -21,7 +21,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/seleksi-kompetensi-dasar"
           >
-            Ringkasan SKD CPNS
+        Mulai Latihan
           </Link>
         </div>
       </div>
@@ -33,8 +33,8 @@ export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title={`Selamat Datang di ${siteConfig.title}`}
+      description="Informasi dan latihan untuk tes CPNS."
     >
       <HomepageHeader />
       <main>

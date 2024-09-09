@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Ringkasan Materi',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Ringkasan materi CPNS untuk TKP, TWK, dan TIU. Memudahkan pemahaman konsep-konsep penting.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Fokus pada Latihan',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Latihan soal CPNS dengan berbagai tipe dan kesulitan untuk mempersiapkan ujian.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Evaluasi Kemampuan',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Evaluasi hasil latihan untuk melacak kemajuan dan area yang perlu diperbaiki.
       </>
     ),
   },
