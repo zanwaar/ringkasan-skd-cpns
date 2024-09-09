@@ -67,7 +67,7 @@ const config: Config = {
         },
         { to: "/about", label: "About Us", position: "left" },
         {
-          href: "https://github.com/zanwaar/ringkasan-cpns-skd",
+          href: "https://github.com/zanwaar/ringkasan-skd-cpns",
           label: "GitHub",
           position: "right",
         },

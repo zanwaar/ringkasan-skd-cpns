@@ -1,38 +1,30 @@
 ---
 sidebar_position: 1
-id: seleksi-kompetensi-dasar
-title: Materi Tes Intelegensia Umum (TIU)
+title: Tes Karakteristik Pribadi (TKP)
 sidebar_label: Materi
 ---
 
-# Tes Intelegensia Umum (TIU)
+# Tes Karakteristik Pribadi (TKP)
 
-Tes Intelegensia Umum (TIU) mengukur kemampuan intelektual dan logika dasar peserta dalam memecahkan masalah. TIU mencakup tiga aspek utama yang diuji, yaitu kemampuan verbal, numerik, dan figural. Berikut adalah rincian dari masing-masing aspek:
+Tes Karakteristik Pribadi (TKP) bertujuan untuk mengukur karakteristik personal peserta yang berkaitan dengan kinerja di lingkungan kerja. Aspek yang diukur meliputi:
 
-## Aspek yang Diuji dalam TIU
+- **Aspek Pelayanan Publik**
+- **Aspek Jejaring Kerja**
+- **Aspek Profesionalisme**
+- **Aspek Sosial Budaya**
+- **Aspek Teknologi dan Informasi**
+- **Aspek Anti Radikalisme**
 
-### 1. **Kemampuan Verbal**
-- **Analogi**: Menyelesaikan pola berdasarkan hubungan kata.
-- **Silogisme**: Menarik kesimpulan logis dari premis yang diberikan.
-- **Penalaran Analitis**: Menganalisis dan menarik kesimpulan dari informasi verbal.
+## Detail Tes
 
-### 2. **Kemampuan Numerik**
-- **Deret Bilangan**: Menyelesaikan pola bilangan yang berurutan.
-- **Operasi Pecahan**: Menghitung dan menyelesaikan soal-soal yang melibatkan pecahan.
-- **Perbandingan Kuantitatif**: Membandingkan dua nilai numerik dan menentukan perbandingannya.
-- **Soal Cerita**: Menggunakan data dalam bentuk cerita untuk menyelesaikan masalah matematika.
+- **Jumlah Soal**: 45
+- **Waktu**: 75 menit
+- **Waktu per Soal**: 75 menit ÷ 45 soal = **1,67 menit per soal**
+- **Nilai Per Soal**: 1-5 poin, tergantung pada jawaban
+- **Total Nilai Maksimal**: 225 poin
 
-### 3. **Kemampuan Figural**
-- **Analogi Gambar**: Menyelesaikan pola berdasarkan hubungan gambar.
-- **Ketesamaan Gambar**: Mencocokkan gambar yang serupa atau identik.
-- **Seri Gambar**: Menyelesaikan pola atau urutan gambar yang diberikan.
+### Rangkuman Tes
 
-## Detail Tes TIU
-
-- **Jumlah Soal**: 35
-- **Waktu**: 35 menit
-- **Waktu per Soal**: 35 menit ÷ 35 soal = **1 menit per soal**
-- **Nilai Per Soal**: 5 poin
-- **Total Nilai Maksimal**: 175 poin
-
-Persiapan yang baik untuk TIU akan membantu Anda dalam mengatasi berbagai tipe soal dan meningkatkan peluang Anda untuk sukses dalam ujian.
+- **Jumlah Soal**: 110
+- **Total Waktu**: 185 menit
+- **Total Nilai Maksimal**: 550 poin

@@ -1,6 +1,5 @@
 ---
 sidebar_position: 1
-id: seleksi-kompetensi-dasar
 title: Materi Tes Intelegensia Umum (TIU)
 sidebar_label: Materi
 ---
@@ -12,22 +11,25 @@ Tes Intelegensia Umum (TIU) mengukur kemampuan intelektual dan logika dasar pese
 ## Aspek yang Diuji dalam TIU
 
 ### 1. **Kemampuan Verbal**
+
 - **Analogi**: Menyelesaikan pola berdasarkan hubungan kata.
 - **Silogisme**: Menarik kesimpulan logis dari premis yang diberikan.
 - **Penalaran Analitis**: Menganalisis dan menarik kesimpulan dari informasi verbal.
 
 ### 2. **Kemampuan Numerik**
+
 - **Deret Bilangan**: Menyelesaikan pola bilangan yang berurutan.
 - **Operasi Pecahan**: Menghitung dan menyelesaikan soal-soal yang melibatkan pecahan.
 - **Perbandingan Kuantitatif**: Membandingkan dua nilai numerik dan menentukan perbandingannya.
 - **Soal Cerita**: Menggunakan data dalam bentuk cerita untuk menyelesaikan masalah matematika.
 
 ### 3. **Kemampuan Figural**
+
 - **Analogi Gambar**: Menyelesaikan pola berdasarkan hubungan gambar.
 - **Ketesamaan Gambar**: Mencocokkan gambar yang serupa atau identik.
 - **Seri Gambar**: Menyelesaikan pola atau urutan gambar yang diberikan.
 
-## Detail Tes TIU
+## Detail Tes
 
 - **Jumlah Soal**: 35
 - **Waktu**: 35 menit

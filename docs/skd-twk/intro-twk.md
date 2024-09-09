@@ -1,21 +1,20 @@
 ---
 sidebar_position: 1
-id: seleksi-kompetensi-dasar
 title: Tes Wawasan Kebangsaan (TWK)
 sidebar_label: Materi
 ---
 
 # Tes Wawasan Kebangsaan (TWK)
 
-### **Tes Wawasan Kebangsaan (TWK)**
+Tes Wawasan Kebangsaan (TWK) bertujuan untuk mengukur kemampuan peserta dalam memahami dan mengimplementasikan nilai-nilai kebangsaan serta bela negara. Aspek-aspek yang diuji dalam TWK meliputi:
 
-Tes ini bertujuan untuk mengukur kemampuan peserta dalam memahami dan mengimplementasikan nilai-nilai kebangsaan serta bela negara. Aspek-aspek yang diuji dalam TWK meliputi:
+- **Aspek Integritas**
+- **Aspek Nasionalisme**
+- **Aspek Bela Negara**
+- **Aspek Pilar Negara**
+- **Aspek Bahasa Indonesia**
 
-- Aspek Integritas
-- Aspek Nasionalisme
-- Aspek Bela Negara
-- Aspek Pilar Negara
-- Aspek Bahasa Indonesia
+## Detail Tes
 
 - **Jumlah Soal**: 30
 - **Waktu**: 75 menit
