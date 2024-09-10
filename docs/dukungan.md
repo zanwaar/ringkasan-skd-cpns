@@ -1,8 +1,7 @@
 ---
-sidebar_position: terakhir
 id: dukungan-sponsor
 title: Dukungan dan Sponsor
-sidebar_label: Dukungan dan Sponsor
+sidebar_label: 💖 Dukungan dan Sponsor
 ---
 
 # Dukungan dan Sponsor

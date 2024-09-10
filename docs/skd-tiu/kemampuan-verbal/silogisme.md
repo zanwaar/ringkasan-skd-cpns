@@ -67,5 +67,5 @@ Kedua contoh soal di atas merupakan bagian dari soal Seleksi Kompetensi Dasar (S
 
 ## Latihan Soal
 
-- [Latihan Soal - Soal Silogisme Berbentuk Dua Premis (20 Soal)](/ringkasan-skd-cpns/docs/latihan-soal/soal-silogisme-dua-premis)
-- [Latihan Soal - Soal Silogisme Berbentuk Tiga Premis (20 Soal)](/ringkasan-skd-cpns/docs/latihan-soal/soal-silogisme-tiga-premis)
+- [Latihan Soal - Soal Silogisme Berbentuk Dua Premis (20 Soal)](/ringkasan-skd-cpns/docs/latihan-soal/soal-silogisme-dua-permis)
+- [Latihan Soal - Soal Silogisme Berbentuk Tiga Premis (20 Soal)](/ringkasan-skd-cpns/docs/latihan-soal/soal-silogisme-tiga-permis)
