@@ -6,6 +6,8 @@ sidebar_label: Soal Verbal Silogisme (Tiga Premis)
 
 # Latihan Soal: Soal Silogisme Berbentuk Tiga Premis (20 Soal)
 
+*Catatan: Kumpulan soal ini dibuat dengan bantuan teknologi kecerdasan buatan (AI) untuk meningkatkan kualitas dan relevansi materi.*
+
 Di bawah ini adalah latihan soal silogisme berbentuk tiga premis. Pilihlah kesimpulan yang paling logis berdasarkan ketiga premis yang diberikan.
 
 ## Soal 1

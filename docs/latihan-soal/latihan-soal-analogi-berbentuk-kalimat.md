@@ -5,23 +5,24 @@ sidebar_label: Soal Verbal Analogi Kalimat
 ---
 
 # Latihan Soal: Soal Analogi Berbentuk Kalimat (20 Soal)
+*Catatan: Kumpulan soal ini dibuat dengan bantuan teknologi kecerdasan buatan (AI) untuk meningkatkan kualitas dan relevansi materi.*
 
 Latihan berikut ini berisi 20 soal analogi berbentuk kalimat yang bertujuan untuk menguji kemampuan Anda dalam memahami hubungan antara dua konsep atau objek. Klik pada jawaban yang benar untuk melihat penjelasannya.
 
 ## Soal 1
 
-Pada kunci terdapat gigi dan pegangan.  
+Pada jam tangan terdapat jarum dan dial.  
 Hubungan objek yang setara dengan kalimat di atas adalah ...
 
-- a. Pada pintu terdapat gagang dan engsel
-- b. Pada gunting terdapat mata dan pegangan
-- c. Pada mesin terdapat roda dan tali
-- d. Pada pensil terdapat kayu dan grafit
-- e. Pada komputer terdapat keyboard dan mouse
+- a. Pada televisi terdapat layar dan remote
+- b. Pada buku terdapat halaman dan sampul
+- c. Pada mobil terdapat roda dan mesin
+- d. Pada komputer terdapat layar dan keyboard
+- e. Pada kamera terdapat lensa dan sensor
 
 <details>
-<summary><strong>Jawaban:</strong> b. Pada gunting terdapat mata dan pegangan</summary>
-Penjelasan: Gigi dan pegangan adalah dua bagian utama pada kunci, sama seperti mata dan pegangan adalah dua bagian utama pada gunting.
+<summary><strong>Jawaban:</strong> e. Pada kamera terdapat lensa dan sensor</summary>
+Penjelasan: Jarum dan dial adalah dua komponen utama pada jam tangan, sama seperti lensa dan sensor adalah dua komponen utama pada kamera.
 </details>
 
 ---
