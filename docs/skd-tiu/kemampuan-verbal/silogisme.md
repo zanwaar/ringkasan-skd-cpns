@@ -18,7 +18,7 @@ Pada jenis soal ini, Anda akan diberikan dua premis. Tugas Anda adalah memilih k
 
 **Soal:**  
 Semua penumpang bis kota memiliki kartu langganan kendaraan umum. Tidak ada karyawan di pabrik sepatu yang memiliki kartu langganan kendaraan umum.  
-**Simpulan yang tepat dari pernyataan di atas adalah:**
+**Kesimpulan yang tepat dari pernyataan di atas adalah:**
 
 **Pilihan Jawaban:**
 
@@ -63,4 +63,9 @@ Kemampuan silogisme, khususnya dalam menarik kesimpulan dari premis yang diberik
 ---
 
 Catatan:  
-Kedua contoh soal di atas merupakan bagian dari soal Seleksi Kompetensi
+Kedua contoh soal di atas merupakan bagian dari soal Seleksi Kompetensi Dasar (SKD) CPNS tahun 2023.
+
+## Latihan Soal
+
+- [Latihan Soal - Soal Silogisme Berbentuk Dua Premis (20 Soal)](/ringkasan-skd-cpns/docs/latihan-soal/soal-silogisme-dua-premis)
+- [Latihan Soal - Soal Silogisme Berbentuk Tiga Premis (20 Soal)](/ringkasan-skd-cpns/docs/latihan-soal/soal-silogisme-tiga-premis)
