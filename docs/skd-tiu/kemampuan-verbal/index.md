@@ -43,7 +43,7 @@ Pada jenis soal ini, Anda akan diberikan dua kata yang memiliki hubungan tertent
 #### Contoh Soal (SKD CPNS 2023):
 
 **Soal:**  
-Statistika : Data  Geologi : ...
+Statistika : Data Geologi : ...
 
 **Pilihan Jawaban:**
 
@@ -69,7 +69,7 @@ Kedua contoh soal di atas merupakan bagian dari soal Seleksi Kompetensi Dasar (S
 
 Selamat berlatih dan semoga sukses dalam tes SKD CPNS!
 
-## Latihan Soal 
+## Latihan Soal
 
-- [Latihan Soal - Soal Analogi Berbentuk Kalimat (20 Soal)](./latihan-soal-analogi-kalimat)
-- [Latihan Soal - Soal Analogi Berbentuk Pasangan Kata (20 Soal)](./latihan-soal-analogi-pasangan-kata)
+- [Latihan Soal - Soal Analogi Berbentuk Kalimat (20 Soal)](/ringkasan-skd-cpns/docs/latihan-soal/latihan-soal-analogi-berbentuk-kalimat)
+- [Latihan Soal - Soal Analogi Kata (20 Soal)](/ringkasan-skd-cpns/docs/latihan-soal/soal-analogi-kata)

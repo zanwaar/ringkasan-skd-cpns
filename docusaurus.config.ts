@@ -5,7 +5,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "Ringkasan SKD CPNS",
   tagline: "Informasi dan Latihan CPNS",
-  favicon: "img/favicon.ico",
+  favicon: "img/fun.ico",
 
   // Set the production URL of your site here
   url: "https://zanwaar.github.io",
@@ -51,12 +51,12 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/fun.jpg",
     navbar: {
-      title: "BATUKEL",
+      title: "Funpice",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
+        alt: "Funpice logo",
+        src: "img/fun.svg",
       },
       items: [
         {
