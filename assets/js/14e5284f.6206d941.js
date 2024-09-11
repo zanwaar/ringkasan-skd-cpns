@@ -3,7 +3,7 @@
   align-items: center; /* Vertikal center */
   gap: 10px; /* Jarak antara gambar dan teks */
 `,l=r.Ay.img`
-  max-width: 10%;
+  max-width: 15%;
   height: auto;
 `,c=r.Ay.h2`
   color: #2e8555;
