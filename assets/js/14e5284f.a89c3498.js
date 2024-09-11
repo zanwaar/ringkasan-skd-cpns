@@ -1,14 +1,14 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[950],{9676:(a,n,e)=>{e.r(n),e.d(n,{assets:()=>y,contentTitle:()=>j,default:()=>w,frontMatter:()=>f,metadata:()=>b,toc:()=>D});var i=e(4848),r=e(8453),s=e(6540),t=e(3540);const d=t.Ay.div`
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[950],{9676:(a,n,e)=>{e.r(n),e.d(n,{assets:()=>y,contentTitle:()=>j,default:()=>w,frontMatter:()=>f,metadata:()=>b,toc:()=>D});var i=e(4848),r=e(8453),t=e(6540),s=e(3540);const d=s.Ay.div`
   display: flex;
   align-items: center; /* Vertikal center */
   gap: 10px; /* Jarak antara gambar dan teks */
-`,l=t.Ay.img`
+`,l=s.Ay.img`
   max-width: 15%;
   height: auto;
-`,o=t.Ay.h2`
+`,o=s.Ay.h2`
   color: #2e8555;
   margin: 0; /* Menghilangkan margin default dari h2 */
-`,c=t.Ay.input`
+`,c=s.Ay.input`
   padding: 10px;
   margin-right: 10px;
   border: 2px solid #2e8555;
@@ -20,7 +20,7 @@
   &:focus {
     border-color: #0056b3;
   }
-`,u=t.Ay.button`
+`,u=s.Ay.button`
   padding: 10px 20px;
   background-color: #2e8555;
   color: white;
@@ -38,16 +38,16 @@
     background-color: #a9a9a9;
     cursor: not-allowed;
   }
-`,p=t.Ay.div`
+`,p=s.Ay.div`
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-`,k=(t.Ay.p`
+`,k=(s.Ay.p`
   color: #0056b3;
   font-size: 16px;
   font-weight: bold;
-`,()=>{const[a,n]=(0,s.useState)(""),[e,r]=(0,s.useState)(""),[t,k]=(0,s.useState)(""),[g,h]=(0,s.useState)(!0),[m,x]=(0,s.useState)(!1);(0,s.useEffect)((()=>{const a=localStorage.getItem("id_funpice");a&&(h(!1),r(`ID FUNPICE : ${a}`))}),[]);return(0,i.jsxs)("div",{children:[g&&(0,i.jsxs)(p,{children:[(0,i.jsx)(c,{type:"text",value:a,onChange:a=>{n(a.target.value)},placeholder:"Masukkan nama"}),(0,i.jsx)(u,{onClick:async()=>{if(g){x(!0),k("");try{const n=await fetch("https://funpice.fun/api/idfunpice",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({nama:a})});if(!n.ok){const a=await n.json();return r(""),void k(a.message||"Error")}const e=await n.json();e.id_funpice&&(localStorage.setItem("id_funpice",e.id_funpice),h(!1),r(`ID FUNPICE: ${e.id_funpice}`)),k("")}catch(n){r(""),k("Network Error")}finally{x(!1)}}else k("POST tidak diizinkan. ID sudah ada di localStorage.")},disabled:m,children:m?"Proses...":"FunpiceID"})]}),e&&(0,i.jsxs)(d,{children:[(0,i.jsx)(l,{src:"/ringkasan-skd-cpns/img/fun.png",alt:"Descriptive Alt Text"}),(0,i.jsx)(o,{children:e})]}),t&&(0,i.jsxs)("p",{children:["Error: ",t]})]})}),g=t.Ay.div`
+`,()=>{const[a,n]=(0,t.useState)(""),[e,r]=(0,t.useState)(""),[s,k]=(0,t.useState)(""),[g,h]=(0,t.useState)(!0),[m,x]=(0,t.useState)(!1);(0,t.useEffect)((()=>{const a=localStorage.getItem("id_funpice");a&&(h(!1),r(`ID FUNPICE : ${a}`))}),[]);return(0,i.jsxs)("div",{children:[g&&(0,i.jsxs)(p,{children:[(0,i.jsx)(c,{type:"text",value:a,onChange:a=>{n(a.target.value)},placeholder:"Masukkan nama"}),(0,i.jsx)(u,{onClick:async()=>{if(g){x(!0),k("");try{const n=await fetch("https://funpice.fun/api/idfunpice",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({nama:a})});if(!n.ok){const a=await n.json();return r(""),void k(a.message||"Error")}const e=await n.json();e.id_funpice&&(localStorage.setItem("id_funpice",e.id_funpice),h(!1),r(`ID FUNPICE: ${e.id_funpice}`)),k("")}catch(n){r(""),k("Network Error")}finally{x(!1)}}else k("POST tidak diizinkan. ID sudah ada di localStorage.")},disabled:m,children:m?"Proses...":"Generate ID"})]}),e&&(0,i.jsxs)(d,{children:[(0,i.jsx)(l,{src:"/ringkasan-skd-cpns/img/fun.png",alt:"Descriptive Alt Text"}),(0,i.jsx)(o,{children:e})]}),s&&(0,i.jsxs)("p",{children:["Error: ",s]})]})}),g=s.Ay.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -58,14 +58,14 @@
     align-items: center; /* Menyelaraskan item di tengah pada layar kecil */
     justify-content: center; /* Menyelaraskan item di tengah secara vertikal */
   }
-`,h=t.Ay.img`
+`,h=s.Ay.img`
   max-width: 55%;
   height: auto;
 
   @media (max-width: 768px) {
     max-width: 50%; /* Menyesuaikan lebar gambar pada layar kecil */
   }
-`,m=t.Ay.div`
+`,m=s.Ay.div`
   flex: 1;
   margin-top: 20px; /* Margin atas untuk jarak antara gambar dan konten */
 
