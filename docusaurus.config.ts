@@ -4,7 +4,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Ringkasan SKD CPNS",
-  tagline: "Dibuat dengan bantuan teknologi kecerdasan buatan (AI) untuk memastikan kualitas dan relevansi materi. Terima kasih atas dukungan Anda!",
+  tagline: "Mengunkan teknologi kecerdasan buatan (AI) untuk memastikan kualitas dan relevansi materi",
   favicon: "img/fun.ico",
 
   // Set the production URL of your site here

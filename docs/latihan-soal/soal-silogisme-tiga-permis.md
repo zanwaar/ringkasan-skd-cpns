@@ -8,7 +8,6 @@ sidebar_label: Soal Verbal Silogisme (Tiga Premis)
 
 *Catatan: Kumpulan soal ini dibuat dengan bantuan teknologi kecerdasan buatan (AI) untuk meningkatkan kualitas dan relevansi materi.*
 
-Di bawah ini adalah latihan soal silogisme berbentuk tiga premis. Pilihlah kesimpulan yang paling logis berdasarkan ketiga premis yang diberikan.
 
 ## Soal 1
 Semua buku yang dibaca Lina adalah buku fiksi.  

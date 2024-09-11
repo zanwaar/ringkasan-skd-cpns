@@ -8,8 +8,6 @@ sidebar_label: Soal Verbal Silogisme (Dua Premis)
 
 *Catatan: Kumpulan soal ini dibuat dengan bantuan teknologi kecerdasan buatan (AI) untuk meningkatkan kualitas dan relevansi materi.*
 
-Di bawah ini adalah latihan soal silogisme berbentuk dua premis. Pilihlah kesimpulan yang paling logis berdasarkan kedua premis yang diberikan.
-
 ## Soal 1
 Semua dokter adalah orang yang memiliki gelar medis.  
 Tidak ada insinyur yang memiliki gelar medis.

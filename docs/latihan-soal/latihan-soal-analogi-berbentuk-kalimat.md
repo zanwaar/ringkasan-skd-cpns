@@ -7,7 +7,6 @@ sidebar_label: Soal Verbal Analogi Kalimat
 # Latihan Soal: Soal Analogi Berbentuk Kalimat (20 Soal)
 *Catatan: Kumpulan soal ini dibuat dengan bantuan teknologi kecerdasan buatan (AI) untuk meningkatkan kualitas dan relevansi materi.*
 
-Latihan berikut ini berisi 20 soal analogi berbentuk kalimat yang bertujuan untuk menguji kemampuan Anda dalam memahami hubungan antara dua konsep atau objek. Klik pada jawaban yang benar untuk melihat penjelasannya.
 
 ## Soal 1
 

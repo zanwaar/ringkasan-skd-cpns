@@ -7,8 +7,6 @@ sidebar_label: Soal Verbal Analogi (Pasangan Kata)
 # Latihan Soal: Soal Analogi Berbentuk Pasangan Kata (20 Soal)
 *Catatan: Kumpulan soal ini dibuat dengan bantuan teknologi kecerdasan buatan (AI) untuk meningkatkan kualitas dan relevansi materi.*
 
-Di bawah ini adalah latihan soal analogi berbentuk pasangan kata. Pilihlah jawaban yang paling tepat untuk melengkapi pasangan kata yang diberikan.
-
 
 ## Soal 1
 Memasak : Kompor = Menulis : ...
