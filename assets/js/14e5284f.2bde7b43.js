@@ -8,7 +8,7 @@
 `,c=r.Ay.h2`
   color: #2e8555;
   margin: 0; /* Menghilangkan margin default dari h2 */
-`,o=r.Ay.input`
+`,u=r.Ay.input`
   padding: 10px;
   margin-right: 10px;
   border: 2px solid #2e8555;
@@ -20,7 +20,7 @@
   &:focus {
     border-color: #0056b3;
   }
-`,u=r.Ay.button`
+`,o=r.Ay.button`
   padding: 10px 20px;
   background-color: #2e8555;
   color: white;
@@ -47,7 +47,7 @@
   color: #0056b3;
   font-size: 16px;
   font-weight: bold;
-`,()=>{const[a,n]=(0,s.useState)(""),[e,t]=(0,s.useState)(""),[r,k]=(0,s.useState)(""),[g,m]=(0,s.useState)(!0),[h,x]=(0,s.useState)(!1);(0,s.useEffect)((()=>{const a=localStorage.getItem("id_funpice");a&&(m(!1),t(`ID FUNPICE : ${a}`))}),[]);return(0,i.jsxs)("div",{children:[g&&(0,i.jsxs)(p,{children:[(0,i.jsx)(o,{type:"text",value:a,onChange:a=>{n(a.target.value)},placeholder:"Masukkan nama"}),(0,i.jsx)(u,{onClick:async()=>{if(g){x(!0),k("");try{const n=await fetch("https://funpice.fun/api/generate-qrisidfunpice",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({nama:a})});if(!n.ok){const a=await n.json();return t(""),void k(a.message||"Error")}const e=await n.json();e.id_funpice&&(localStorage.setItem("id_funpice",e.id_funpice),m(!1),t(`ID FUNPICE: ${e.id_funpice}`)),k("")}catch(n){t(""),k("Network Error")}finally{x(!1)}}else k("POST tidak diizinkan. ID sudah ada di localStorage.")},disabled:h,children:h?"Proses...":"Generate ID"})]}),e&&(0,i.jsxs)(d,{children:[(0,i.jsx)(l,{src:"/ringkasan-skd-cpns/img/fun.png",alt:"Descriptive Alt Text"}),(0,i.jsx)(c,{children:e})]}),r&&(0,i.jsxs)("p",{children:["Error: ",r]})]})}),g=r.Ay.div`
+`,()=>{const[a,n]=(0,s.useState)(""),[e,t]=(0,s.useState)(""),[r,k]=(0,s.useState)(""),[g,m]=(0,s.useState)(!0),[h,x]=(0,s.useState)(!1);(0,s.useEffect)((()=>{const a=localStorage.getItem("id_funpice");a&&(m(!1),t(`ID FUNPICE : ${a}`))}),[]);return(0,i.jsxs)("div",{children:[g&&(0,i.jsxs)(p,{children:[(0,i.jsx)(u,{type:"text",value:a,onChange:a=>{n(a.target.value)},placeholder:"Masukkan nama"}),(0,i.jsx)(o,{onClick:async()=>{if(g){x(!0),k("");try{const n=await fetch("https://funpice.fun/api/idfunpice",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({nama:a})});if(!n.ok){const a=await n.json();return t(""),void k(a.message||"Error")}const e=await n.json();e.id_funpice&&(localStorage.setItem("id_funpice",e.id_funpice),m(!1),t(`ID FUNPICE: ${e.id_funpice}`)),k("")}catch(n){t(""),k("Network Error")}finally{x(!1)}}else k("POST tidak diizinkan. ID sudah ada di localStorage.")},disabled:h,children:h?"Proses...":"FunpiceID"})]}),e&&(0,i.jsxs)(d,{children:[(0,i.jsx)(l,{src:"/ringkasan-skd-cpns/img/fun.png",alt:"Descriptive Alt Text"}),(0,i.jsx)(c,{children:e})]}),r&&(0,i.jsxs)("p",{children:["Error: ",r]})]})}),g=r.Ay.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
