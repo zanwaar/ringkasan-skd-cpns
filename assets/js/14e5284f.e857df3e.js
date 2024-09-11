@@ -21,7 +21,7 @@
     border-color: #0056b3;
   }
 `,u=s.Ay.button`
-  padding: 10px 20px;
+  padding: 10px;
   background-color: #2e8555;
   color: white;
   border: none;
