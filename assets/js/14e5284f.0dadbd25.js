@@ -59,11 +59,11 @@
     justify-content: center; /* Menyelaraskan item di tengah secara vertikal */
   }
 `,m=r.Ay.img`
-  max-width: 30%;
+  max-width: 50%;
   height: auto;
 
   @media (max-width: 768px) {
-    max-width: 80%; /* Lebar gambar lebih besar pada layar kecil */
+    max-width: 30%; /* Lebar gambar lebih besar pada layar kecil */
   }
 `,h=r.Ay.div`
   flex: 1;
