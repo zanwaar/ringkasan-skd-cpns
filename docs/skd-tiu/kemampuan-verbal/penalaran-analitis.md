@@ -12,7 +12,7 @@ Dalam tes Seleksi Kompetensi Dasar (SKD) CPNS, soal penalaran analitis biasanya 
 
 ### Contoh Soal 1 (SKD CPNS 2023):
 
-#### Kategori Penataan dan Hubungan Posisi (Contoh Soal 1)
+#### Kategori : Penataan dan Hubungan Posisi (Contoh Soal 1)
 
 Dalam sebuah acara undangan pernikahan terdapat 8 orang tamu yang duduk dalam dua baris pada kedua sisi meja. Andi berada di antara Lala dan Ari dan berhadapan dengan Bejo. Reza berada di sebelah Bejo, sedangkan Ari duduk berhadapan dengan Anto dan di antara Andi dan Eko. Jika Nuri duduk di sebelah Anto, siapakah yang berada di antara Reza dan Anto?
 
@@ -60,7 +60,7 @@ e. Ari
 
 ### Contoh Soal 2 (SKD CPNS 2023):
 
-#### Kategori Jalur Maksimal dalam Jaringan (Contoh Soal 2)
+#### Kategori : Jalur Maksimal dalam Jaringan (Contoh Soal 2)
 
 **Soal:**  
 Pada liburan sekolah, Wisnu berlibur ke Dufan dan dia mulai berjalan melalui pintu masuk wahana. Pos A dekat dengan pintu masuk yang terhubung dengan pos B dan pos C. Setelah ia berjalan, ia melihat bahwa Pos C terhubung dengan pos B, pos D, dan pos E; kemudian pos D terhubung dengan pos G. Sedangkan pos E terhubung dengan pos F dan pos G yang dekat dengan pintu keluar terhubung dengan pos F.

@@ -8,6 +8,7 @@ sidebar_label: Silogisme (Tiga Premis)
 
 *Catatan: Kumpulan soal ini dibuat dengan bantuan teknologi kecerdasan buatan (AI) untuk meningkatkan kualitas dan relevansi materi.*
 
+---
 
 ## Soal 1
 Semua buku yang dibaca Lina adalah buku fiksi.  

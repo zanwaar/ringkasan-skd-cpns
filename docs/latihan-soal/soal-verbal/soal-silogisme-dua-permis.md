@@ -8,6 +8,8 @@ sidebar_label: Silogisme (Dua Premis)
 
 *Catatan: Kumpulan soal ini dibuat dengan bantuan teknologi kecerdasan buatan (AI) untuk meningkatkan kualitas dan relevansi materi.*
 
+---
+
 ## Soal 1
 Semua dokter adalah orang yang memiliki gelar medis.  
 Tidak ada insinyur yang memiliki gelar medis.

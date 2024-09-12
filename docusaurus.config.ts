@@ -7,10 +7,7 @@ const config: Config = {
   tagline: "Mengunkan teknologi kecerdasan buatan (AI) untuk memastikan kualitas dan relevansi materi",
   favicon: "img/fun.ico",
 
-  // Set the production URL of your site here
   url: "https://zanwaar.github.io",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub Pages deployment, it is often '/<projectName>/'
   baseUrl: "/ringkasan-skd-cpns/",
   projectName: "ringkasan-skd-cpns",
   organizationName: "zanwaar",
@@ -81,6 +78,38 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  // Tambahkan plugin PWA di bawah ini
+  plugins: [
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        debug: true, // Gunakan true untuk development, ubah ke false untuk production
+        offlineModeActivationStrategies: [
+          'appInstalled', // Aktifkan saat aplikasi diinstall
+          'standalone', // Aktifkan saat diakses dalam mode standalone
+          'queryString', // Aktifkan saat ada query string di URL
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/img/fun.ico', // Ganti dengan icon kamu
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.json', // Arahkan ke manifest.json untuk PWA
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: '#000000', // Sesuaikan dengan tema situsmu
+          },
+        ],
+      },
+    ],
+  ],
 };
 
 export default config;

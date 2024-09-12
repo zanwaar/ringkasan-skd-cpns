@@ -21,7 +21,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/seleksi-kompetensi-dasar"
           >
-        Mulai Latihan
+            Mulai Latihan
           </Link>
         </div>
       </div>

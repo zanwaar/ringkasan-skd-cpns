@@ -7,6 +7,7 @@ sidebar_label: Analogi (Pasangan Kata)
 # Latihan Soal: Soal Analogi Berbentuk Pasangan Kata (10 Soal)
 *Catatan: Kumpulan soal ini dibuat dengan bantuan teknologi kecerdasan buatan (AI) untuk meningkatkan kualitas dan relevansi materi.*
 
+---
 
 ## Soal 1
 Memasak : Kompor = Menulis : ...

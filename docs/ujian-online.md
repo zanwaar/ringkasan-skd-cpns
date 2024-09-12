@@ -13,7 +13,7 @@ Selamat datang di halaman **Ujian Online Funpice**! Di sini, Anda dapat mengakse
 1. **Masuk ke Akun Anda**:
 
    - Kunjungi [halaman login ujian online](https://funpice.fun/ujian/login).
-   - Masukkan ID Funpice dan password dengan [ID FUNPICE](/ringkasan-skd-cpns/docs/id-funpice) yang telah anda daptkan.
+   - Masukkan ID Funpice dengan [ID FUNPICE](/ringkasan-skd-cpns/docs/id-funpice) yang telah anda daptkan.
 
 2. **Mulai Ujian**:
 
