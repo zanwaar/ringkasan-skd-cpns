@@ -14,7 +14,7 @@ const RowContainer = styled.div`
 `;
 
 const Image = styled.img`
-  max-width: 10%;
+  max-width: 15%;
   height: auto;
 `;
 
@@ -38,7 +38,7 @@ const Input = styled.input`
 `;
 
 const Button = styled.button`
-  padding: 10px 20px;
+  padding: 10px;
   background-color: #2e8555;
   color: white;
   border: none;

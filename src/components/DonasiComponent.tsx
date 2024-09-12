@@ -89,6 +89,7 @@ const DonasiComponent: React.FC = () => {
           }}
         />
 
+      </div>
         <button
           onClick={handleDonate}
           disabled={loading}
@@ -104,7 +105,6 @@ const DonasiComponent: React.FC = () => {
         >
           {loading ? "Proses..." : "Donasi"}
         </button>
-      </div>
 
       {error && <p style={{ color: "red", marginTop: "10px" }}>{error}</p>}
       {qrisUrl && (

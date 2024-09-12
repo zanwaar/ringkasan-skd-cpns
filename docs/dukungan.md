@@ -1,15 +1,14 @@
 ---
 id: dukungan-sponsor
-title: Dukunga n dan Sponsor
+title: 💖 Dukungan dan Sponsor
 sidebar_label: 💖 Dukungan dan Sponsor
 ---
 
 import DonasiComponent from '@site/src/components/DonasiComponent';
 
-# Dukungan dan Sponsor
+# 💖 Dukungan dan Sponsor
 
 Kami sangat menghargai dukungan Anda yang berharga. Dengan kontribusi Anda, kami dapat terus menghadirkan konten berkualitas dan meningkatkan proyek ini.
-
 
 Setiap kontribusi Anda membantu kami terus menghadirkan konten berkualitas dan meningkatkan proyek ini. Pilih jumlah donasi yang Anda inginkan dan beri dukungan untuk masa depan yang lebih baik!
 
@@ -29,5 +28,3 @@ Kami ingin memperkenalkan tim yang berdedikasi di balik proyek ini:
 
 - **Funpice** - [Instagram](https://instagram.com/funpice_) - Desainer
 - **Januar Samjid** - [LinkedIn](https://linkedin.com/in/januar-samjid) | [Instagram](https://instagram.com/jsamjid) - Fullstack Developer
-
-

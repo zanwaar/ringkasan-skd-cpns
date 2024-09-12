@@ -71,5 +71,5 @@ Selamat berlatih dan semoga sukses dalam tes SKD CPNS!
 
 ## Latihan Soal
 
-- [Latihan Soal - Soal Analogi Berbentuk Kalimat (20 Soal)](/ringkasan-skd-cpns/docs/latihan-soal/latihan-soal-analogi-berbentuk-kalimat)
-- [Latihan Soal - Soal Analogi Kata (20 Soal)](/ringkasan-skd-cpns/docs/latihan-soal/soal-analogi-kata)
+- [Latihan Soal - Soal Analogi Berbentuk Kalimat (10 Soal)](/ringkasan-skd-cpns/docs/latihan-soal/soal-verbal/latihan-soal-analogi-berbentuk-kalimat)
+- [Latihan Soal - Soal Analogi Kata (10 Soal)](/ringkasan-skd-cpns/docs/latihan-soal/soal-verbal/soal-analogi-kata)

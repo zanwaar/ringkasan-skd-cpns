@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Latihan Soal - Soal Silogisme Berbentuk Dua Premis
-sidebar_label: Soal Verbal Silogisme (Dua Premis)
+sidebar_label: Silogisme (Dua Premis)
 ---
 
 # Latihan Soal: Soal Silogisme Berbentuk Dua Premis (20 Soal)
