@@ -1,6 +1,6 @@
 {
     "name": "Ringkasan SKD CPNS",
-    "short_name": "Ringkasan CPNS",
+    "short_name": "Funpice - Ringkasan CPNS",
     "description": "Aplikasi untuk ringkasan SKD CPNS dengan teknologi kecerdasan buatan (AI).",
     "start_url": "/ringkasan-skd-cpns",
     "display": "standalone",
