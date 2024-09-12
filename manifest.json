@@ -1,6 +1,6 @@
 {
   "name": "Ringkasan SKD CPNS",
-  "short_name": "Funpice-RCPNS",
+  "short_name": "Funpice-R.CPNS",
   "description": "Aplikasi untuk ringkasan SKD CPNS dengan teknologi kecerdasan buatan (AI).",
   "start_url": "/ringkasan-skd-cpns",
   "display": "standalone",
@@ -8,6 +8,18 @@
   "background_color": "#2EC6FE",
   "theme_color": "#8936FF",
   "icons": [
+    {
+      "src": "icon512_maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon512_rounded.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
     {
       "src": "/img/apple-icon-57x57.png",
       "sizes": "57x57",
