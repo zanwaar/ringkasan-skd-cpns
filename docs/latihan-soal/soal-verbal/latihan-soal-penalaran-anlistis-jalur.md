@@ -1,10 +1,10 @@
 ---
 sidebar_position: 6
-title: Latihan Soal - Penalaran Analitis (10 Soal) Kategori Jalur Maksimal dalam Jaringan
+title: Latihan Soal - Penalaran Analitis (20 Soal) Kategori Jalur Maksimal dalam Jaringan
 sidebar_label: Penalaran Analitis - Jalur Maksimal dalam Jaringan
 ---
 
-# Latihan Soal - Penalaran Analitis (10 Soal) Kategori Jalur Maksimal dalam Jaringan
+# Latihan Soal - Penalaran Analitis (20 Soal) Kategori Jalur Maksimal dalam Jaringan
 
 _Catatan: Kumpulan soal ini dibuat dengan bantuan teknologi kecerdasan buatan (AI) untuk meningkatkan kualitas dan relevansi materi._
 
@@ -218,20 +218,210 @@ Penjelasan:
 - **Jawaban yang benar adalah:** **d. 8 rumah**
 </details>
 
+### Soal 11
+Di sebuah kompleks perumahan, terdapat 8 rumah yang terhubung sebagai berikut: Rumah A terhubung dengan Rumah B dan C. Rumah B terhubung dengan Rumah D dan E. Rumah C terhubung dengan Rumah F dan G. Rumah G terhubung dengan Rumah H. Berapa maksimal rumah yang bisa dikunjungi dalam satu perjalanan mulai dari Rumah A?
+
+**Pilihan Jawaban:**
+
+a. 6 rumah  
+b. 7 rumah  
+c. 8 rumah  
+d. 5 rumah  
+e. 4 rumah
+
+<details>
+<summary><strong>Jawaban:</strong> c. 8 rumah</summary>
+Penjelasan:
+- Jalur maksimal dari Rumah A: A → B → D, A → B → E, A → C → F, A → C → G → H
+- Anda dapat mengunjungi hingga 8 rumah dalam satu perjalanan.
+- **Jawaban yang benar adalah:** **c. 8 rumah**
+</details>
+
 ---
 
-## Pentingnya Kemampuan Penalaran Analitis dalam Tes CPNS
+### Soal 12
+Di sebuah pusat perbelanjaan, terdapat 9 toko yang terhubung sebagai berikut: Toko 1 terhubung dengan Toko 2 dan 3. Toko 2 terhubung dengan Toko 4 dan 5. Toko 3 terhubung dengan Toko 6 dan 7. Toko 6 terhubung dengan Toko 8 dan 9. Berapa maksimal toko yang bisa dikunjungi dalam satu perjalanan mulai dari Toko 1?
 
-Kemampuan penalaran analitis sangat penting dalam tes Seleksi Kompetensi Dasar (SKD) CPNS. Soal-soal penalaran analitis dirancang untuk menguji kemampuan Anda dalam memahami, mengorganisasi, dan menyusun informasi secara logis. Ini melibatkan kemampuan untuk memecahkan masalah dengan mempertimbangkan berbagai elemen yang saling berhubungan.
+**Pilihan Jawaban:**
 
-Kemampuan ini menunjukkan seberapa baik Anda dapat:
-- Menyusun informasi dari berbagai sumber untuk membuat keputusan yang tepat.
-- Memahami hubungan antar elemen dan bagaimana mereka mempengaruhi satu sama lain.
-- Menganalisis situasi kompleks dan menyimpulkan solusi yang logis.
+a. 8 toko  
+b. 9 toko  
+c. 7 toko  
+d. 6 toko  
+e. 5 toko
 
-Soal-soal penalaran analitis dirancang untuk mengukur kemampuan berpikir kritis dan sistematis Anda, yang sangat penting dalam berbagai konteks pekerjaan di pemerintahan.
+<details>
+<summary><strong>Jawaban:</strong> b. 9 toko</summary>
+Penjelasan:
+- Jalur maksimal dari Toko 1: 1 → 2 → 4, 1 → 2 → 5, 1 → 3 → 6 → 8, 1 → 3 → 6 → 9
+- Anda dapat mengunjungi hingga 9 toko dalam satu perjalanan.
+- **Jawaban yang benar adalah:** **b. 9 toko**
+</details>
 
 ---
 
-Catatan:  
-Contoh soal di atas merupakan bagian dari latihan untuk mempersiapkan tes Seleksi Kompetensi Dasar (SKD) CPNS tahun 2023.
+### Soal 13
+Dalam sebuah taman hiburan, terdapat 7 atraksi yang terhubung sebagai berikut: Atraksi A terhubung dengan Atraksi B dan C. Atraksi B terhubung dengan Atraksi D dan E. Atraksi C terhubung dengan Atraksi F. Atraksi F terhubung dengan Atraksi G. Berapa maksimal atraksi yang bisa dikunjungi dalam satu perjalanan mulai dari Atraksi A?
+
+**Pilihan Jawaban:**
+
+a. 6 atraksi  
+b. 7 atraksi  
+c. 5 atraksi  
+d. 4 atraksi  
+e. 3 atraksi
+
+<details>
+<summary><strong>Jawaban:</strong> b. 7 atraksi</summary>
+Penjelasan:
+- Jalur maksimal dari Atraksi A: A → B → D, A → B → E, A → C → F → G
+- Anda dapat mengunjungi hingga 7 atraksi dalam satu perjalanan.
+- **Jawaban yang benar adalah:** **b. 7 atraksi**
+</details>
+
+---
+
+### Soal 14
+Di sebuah universitas, terdapat 6 gedung yang terhubung sebagai berikut: Gedung 1 terhubung dengan Gedung 2 dan 3. Gedung 2 terhubung dengan Gedung 4. Gedung 3 terhubung dengan Gedung 5 dan 6. Berapa maksimal gedung yang bisa dikunjungi dalam satu perjalanan mulai dari Gedung 1?
+
+**Pilihan Jawaban:**
+
+a. 6 gedung  
+b. 5 gedung  
+c. 4 gedung  
+d. 3 gedung  
+e. 2 gedung
+
+<details>
+<summary><strong>Jawaban:</strong> a. 6 gedung</summary>
+Penjelasan:
+- Jalur maksimal dari Gedung 1: 1 → 2 → 4, 1 → 3 → 5, 1 → 3 → 6
+- Anda dapat mengunjungi hingga 6 gedung dalam satu perjalanan.
+- **Jawaban yang benar adalah:** **a. 6 gedung**
+</details>
+
+---
+
+### Soal 15
+Dalam sebuah area rekreasi, terdapat 5 lokasi yang terhubung sebagai berikut: Lokasi 1 terhubung dengan Lokasi 2 dan 3. Lokasi 2 terhubung dengan Lokasi 4. Lokasi 3 terhubung dengan Lokasi 5. Berapa maksimal lokasi yang bisa dikunjungi dalam satu perjalanan mulai dari Lokasi 1?
+
+**Pilihan Jawaban:**
+
+a. 5 lokasi  
+b. 4 lokasi  
+c. 3 lokasi  
+d. 2 lokasi  
+e. 6 lokasi
+
+<details>
+<summary><strong>Jawaban:</strong> a. 5 lokasi</summary>
+Penjelasan:
+- Jalur maksimal dari Lokasi 1: 1 → 2 → 4, 1 → 3 → 5
+- Anda dapat mengunjungi hingga 5 lokasi dalam satu perjalanan.
+- **Jawaban yang benar adalah:** **a. 5 lokasi**
+</details>
+
+---
+
+### Soal 16
+Di sebuah kompleks olahraga, terdapat 8 arena yang terhubung sebagai berikut: Arena A terhubung dengan Arena B dan C. Arena B terhubung dengan Arena D dan E. Arena C terhubung dengan Arena F dan G. Arena G terhubung dengan Arena H. Berapa maksimal arena yang bisa dikunjungi dalam satu perjalanan mulai dari Arena A?
+
+**Pilihan Jawaban:**
+
+a. 7 arena  
+b. 8 arena  
+c. 6 arena  
+d. 5 arena  
+e. 4 arena
+
+<details>
+<summary><strong>Jawaban:</strong> b. 8 arena</summary>
+Penjelasan:
+- Jalur maksimal dari Arena A: A → B → D, A → B → E, A → C → F, A → C → G → H
+- Anda dapat mengunjungi hingga 8 arena dalam satu perjalanan.
+- **Jawaban yang benar adalah:** **b. 8 arena**
+</details>
+
+---
+
+### Soal 17
+Di sebuah taman kota, terdapat 7 taman yang terhubung sebagai berikut: Taman 1 terhubung dengan Taman 2 dan 3. Taman 2 terhubung dengan Taman 4 dan 5. Taman 3 terhubung dengan Taman 6 dan 7. Berapa maksimal taman yang bisa dikunjungi dalam satu perjalanan mulai dari Taman 1?
+
+**Pilihan Jawaban:**
+
+a. 6 taman  
+b. 7 taman  
+c. 5 taman  
+d. 4 taman  
+e. 3 taman
+
+<details>
+<summary><strong>Jawaban:</strong> b. 7 taman</summary>
+Penjelasan:
+- Jalur maksimal dari Taman 1: 1 → 2 → 4, 1 → 2 → 5, 1 → 3 → 6, 1 → 3 → 7
+- Anda dapat mengunjungi hingga 7 taman dalam satu perjalanan.
+- **Jawaban yang benar adalah:** **b. 7 taman**
+</details>
+
+---
+
+### Soal 18
+Di sebuah pusat kota, terdapat 8 lokasi yang terhubung sebagai berikut: Lokasi A terhubung dengan Lokasi B dan C. Lokasi B terhubung dengan Lokasi D dan E. Lokasi C terhubung dengan Lokasi F dan G. Lokasi F terhubung dengan Lokasi H. Berapa maksimal lokasi yang bisa dikunjungi dalam satu perjalanan mulai dari Lokasi A?
+
+**Pilihan Jawaban:**
+
+a. 6 lokasi  
+b. 7 lokasi  
+c. 8 lokasi  
+d. 5 lokasi  
+e. 4 lokasi
+
+<details>
+<summary><strong>Jawaban:</strong> c. 8 lokasi</summary>
+Penjelasan:
+- Jalur maksimal dari Lokasi A: A → B → D, A → B → E, A → C → F → H, A → C → G
+- Anda dapat mengunjungi hingga 8 lokasi dalam satu perjalanan.
+- **Jawaban yang benar adalah:** **c. 8 lokasi**
+</details>
+
+---
+
+### Soal 19
+Di sebuah gedung konser, terdapat 6 ruangan yang terhubung sebagai berikut: Ruangan 1 terhubung dengan Ruangan 2 dan 3. Ruangan 2 terhubung dengan Ruangan 4. Ruangan 3 terhubung dengan Ruangan 5 dan 6. Berapa maksimal ruangan yang bisa dikunjungi dalam satu perjalanan mulai dari Ruangan 1?
+
+**Pilihan Jawaban:**
+
+a. 5 ruangan  
+b. 6 ruangan  
+c. 4 ruangan  
+d. 3 ruangan  
+e. 2 ruangan
+
+<details>
+<summary><strong>Jawaban:</strong> b. 6 ruangan</summary>
+Penjelasan:
+- Jalur maksimal dari Ruangan 1: 1 → 2 → 4, 1 → 3 → 5, 1 → 3 → 6
+- Anda dapat mengunjungi hingga 6 ruangan dalam satu perjalanan.
+- **Jawaban yang benar adalah:** **b. 6 ruangan**
+</details>
+
+---
+
+### Soal 20
+Di sebuah area perkemahan, terdapat 7 titik yang terhubung sebagai berikut: Titik 1 terhubung dengan Titik 2 dan 3. Titik 2 terhubung dengan Titik 4. Titik 3 terhubung dengan Titik 5 dan 6. Titik 6 terhubung dengan Titik 7. Berapa maksimal titik yang bisa dikunjungi dalam satu perjalanan mulai dari Titik 1?
+
+**Pilihan Jawaban:**
+
+a. 6 titik  
+b. 7 titik  
+c. 5 titik  
+d. 4 titik  
+e. 3 titik
+
+<details>
+<summary><strong>Jawaban:</strong> b. 7 titik</summary>
+Penjelasan:
+- Jalur maksimal dari Titik 1: 1 → 2 → 4, 1 → 3 → 5, 1 → 3 → 6 → 7
+- Anda dapat mengunjungi hingga 7 titik dalam satu perjalanan.
+- **Jawaban yang benar adalah:** **b. 7 titik**
+</details>

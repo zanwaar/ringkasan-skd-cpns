@@ -5,7 +5,7 @@
   "start_url": "/ringkasan-skd-cpns",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#2EC6FE",
+  "background_color": "#fff",
   "theme_color": "#8936FF",
   "icons": [
     {

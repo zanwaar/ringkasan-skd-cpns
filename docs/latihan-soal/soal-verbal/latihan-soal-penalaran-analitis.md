@@ -1,12 +1,12 @@
 ---
 sidebar_position: 5
-title: Latihan Soal - Penalaran Analitis (10 Soal) Kategori Penataan dan Hubungan Posisi
+title: Latihan Soal - Penalaran Analitis (20 Soal) Kategori Penataan dan Hubungan Posisi
 sidebar_label: Penalaran Analitis - Penataan dan Hubungan Posisi
 ---
 
-# Latihan Soal - Penalaran Analitis (10 Soal) Kategori Penataan dan Hubungan Posisi
+# Latihan Soal - Penalaran Analitis (20 Soal) Kategori Penataan dan Hubungan Posisi
 
-_Catatan: Kumpulan soal ini dibuat dengan bantuan teknologi kecerdasan buatan (AI) untuk meningkatkan kualitas dan relevansi materi.
+\_Catatan: Kumpulan soal ini dibuat dengan bantuan teknologi kecerdasan buatan (AI) untuk meningkatkan kualitas dan relevansi materi.
 
 ---
 
@@ -181,6 +181,204 @@ Di sebuah ruangan terdapat 5 meja yang tersusun dalam bentuk huruf U. Jika Eva d
 a. Eva  
 b. Farah  
 c. Gita  
+d. Tidak ada informasi yang cukup  
+e. Tidak dapat ditentukan
+
+<details>
+<summary><strong>Jawaban:</strong> d. Tidak ada informasi yang cukup</summary>
+Penjelasan: Dengan informasi yang diberikan, tidak dapat dipastikan siapa yang duduk di meja kelima.
+
+</details>
+
+## Soal 11
+
+Di sebuah ruang kelas dengan meja berbentuk persegi, terdapat 4 siswa yang duduk. Jika Anton duduk di sebelah kiri Rani, dan Budi duduk di sebelah kanan Anton, serta Sinta duduk di sebelah kanan Budi, siapa yang duduk di sebelah kiri Sinta?
+
+**Pilihan Jawaban:**
+
+a. Anton  
+b. Budi  
+c. Rani  
+d. Sinta  
+e. Tidak dapat ditentukan
+
+<details>
+<summary><strong>Jawaban:</strong> a. Anton</summary>
+Penjelasan: Dengan informasi yang diberikan, Anton duduk di sebelah kiri Rani dan di sebelah kiri Sinta.
+
+</details>
+
+---
+
+## Soal 12
+
+Dalam sebuah ruangan dengan 8 kursi yang disusun dalam bentuk lingkaran, jika Dita duduk di sebelah kiri Joni dan Mita duduk di sebelah kanan Dita, serta Dudi duduk berhadapan dengan Mita, siapa yang duduk di sebelah kanan Joni?
+
+**Pilihan Jawaban:**
+
+a. Dita  
+b. Mita  
+c. Dudi  
+d. Joni  
+e. Tidak dapat ditentukan
+
+<details>
+<summary><strong>Jawaban:</strong> b. Mita</summary>
+Penjelasan: Dita duduk di sebelah kiri Joni, sehingga Mita yang duduk di sebelah kanan Dita berada di sebelah kanan Joni.
+
+</details>
+
+---
+
+## Soal 13
+
+Di sebuah ruang makan yang memiliki meja berbentuk L, terdapat 4 orang yang duduk. Jika Alex duduk di sebelah kiri Linda, dan Michael duduk di sebelah kanan Alex, serta Sarah duduk di sebelah kiri Michael, siapa yang duduk di sebelah kanan Linda?
+
+**Pilihan Jawaban:**
+
+a. Alex  
+b. Michael  
+c. Sarah  
+d. Linda  
+e. Tidak dapat ditentukan
+
+<details>
+<summary><strong>Jawaban:</strong> b. Michael</summary>
+Penjelasan: Michael duduk di sebelah kanan Alex, sehingga Michael adalah orang yang duduk di sebelah kanan Linda.
+
+</details>
+
+---
+
+## Soal 14
+
+Di sebuah kantor dengan meja yang disusun dalam bentuk U, terdapat 5 pegawai yang duduk. Jika Rudi duduk di meja pertama dan Susi duduk di meja ketiga, serta Tono duduk di meja kedua, siapa yang duduk di meja keempat?
+
+**Pilihan Jawaban:**
+
+a. Rudi  
+b. Susi  
+c. Tono  
+d. Tidak ada informasi yang cukup  
+e. Tidak dapat ditentukan
+
+<details>
+<summary><strong>Jawaban:</strong> d. Tidak ada informasi yang cukup</summary>
+Penjelasan: Dengan informasi yang diberikan, tidak dapat dipastikan siapa yang duduk di meja keempat.
+
+</details>
+
+---
+
+## Soal 15
+
+Dalam sebuah ruang pertemuan dengan kursi melingkar, terdapat 7 orang yang duduk. Jika Budi duduk di sebelah kanan Dinda dan Hani duduk di sebelah kiri Budi, serta Eko duduk berhadapan dengan Hani, siapa yang duduk di sebelah kiri Dinda?
+
+**Pilihan Jawaban:**
+
+a. Budi  
+b. Hani  
+c. Eko  
+d. Dinda  
+e. Tidak dapat ditentukan
+
+<details>
+<summary><strong>Jawaban:</strong> b. Hani</summary>
+Penjelasan: Hani duduk di sebelah kiri Budi, yang berarti Hani juga duduk di sebelah kiri Dinda.
+
+</details>
+
+---
+
+## Soal 16
+
+Di sebuah ruang kerja dengan meja berbentuk persegi panjang, terdapat 6 orang yang duduk. Jika Joko duduk di meja pertama dan Leni duduk di meja kedua, serta Mike duduk di meja ketiga, siapa yang duduk di meja kelima?
+
+**Pilihan Jawaban:**
+
+a. Joko  
+b. Leni  
+c. Mike  
+d. Tidak ada informasi yang cukup  
+e. Tidak dapat ditentukan
+
+<details>
+<summary><strong>Jawaban:</strong> d. Tidak ada informasi yang cukup</summary>
+Penjelasan: Dengan informasi yang diberikan, tidak dapat dipastikan siapa yang duduk di meja kelima.
+
+</details>
+
+---
+
+## Soal 17
+
+Dalam sebuah ruangan dengan kursi yang disusun dalam bentuk lingkaran, terdapat 5 orang yang duduk. Jika Dina duduk di sebelah kanan Lila dan Nita duduk di sebelah kiri Dina, serta Joni duduk berhadapan dengan Nita, siapa yang duduk di sebelah kiri Lila?
+
+**Pilihan Jawaban:**
+
+a. Dina  
+b. Nita  
+c. Joni  
+d. Lila  
+e. Tidak dapat ditentukan
+
+<details>
+<summary><strong>Jawaban:</strong> b. Nita</summary>
+Penjelasan: Nita duduk di sebelah kiri Dina, sehingga Nita adalah orang yang duduk di sebelah kiri Lila.
+
+</details>
+
+---
+
+## Soal 18
+
+Di sebuah ruang seminar dengan meja berbentuk L, terdapat 4 peserta yang duduk. Jika Tono duduk di meja pertama dan Uli duduk di meja kedua, serta Vina duduk di meja ketiga, siapa yang duduk di meja keempat?
+
+**Pilihan Jawaban:**
+
+a. Tono  
+b. Uli  
+c. Vina  
+d. Tidak ada informasi yang cukup  
+e. Tidak dapat ditentukan
+
+<details>
+<summary><strong>Jawaban:</strong> d. Tidak ada informasi yang cukup</summary>
+Penjelasan: Dengan informasi yang diberikan, tidak dapat dipastikan siapa yang duduk di meja keempat.
+
+</details>
+
+---
+
+## Soal 19
+
+Di sebuah ruangan dengan kursi melingkar, terdapat 8 orang yang duduk. Jika Adit duduk di sebelah kanan Hadi dan Beni duduk di sebelah kiri Adit, serta Cici duduk berhadapan dengan Beni, siapa yang duduk di sebelah kanan Hadi?
+
+**Pilihan Jawaban:**
+
+a. Adit  
+b. Beni  
+c. Cici  
+d. Hadi  
+e. Tidak dapat ditentukan
+
+<details>
+<summary><strong>Jawaban:</strong> a. Adit</summary>
+Penjelasan: Adit duduk di sebelah kanan Hadi, sehingga Adit adalah orang yang duduk di sebelah kanan Hadi.
+
+</details>
+
+---
+
+## Soal 20
+
+Dalam sebuah ruang konferensi dengan meja berbentuk U, terdapat 6 peserta yang duduk. Jika Nadia duduk di meja pertama dan Oki duduk di meja ketiga, serta Pina duduk di meja kedua, siapa yang duduk di meja kelima?
+
+**Pilihan Jawaban:**
+
+a. Nadia  
+b. Oki  
+c. Pina  
 d. Tidak ada informasi yang cukup  
 e. Tidak dapat ditentukan
 

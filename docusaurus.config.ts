@@ -104,7 +104,7 @@ const config: Config = {
           {
             tagName: 'meta',
             name: 'theme-color',
-            content: '#000000', // Sesuaikan dengan tema situsmu
+            content: '#8936FF', // Sesuaikan dengan tema situsmu
           },
         ],
       },

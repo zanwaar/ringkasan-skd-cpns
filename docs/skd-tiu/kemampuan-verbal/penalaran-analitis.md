@@ -118,11 +118,27 @@ Kemampuan ini menunjukkan seberapa baik Anda dapat:
 Soal-soal penalaran analitis dirancang untuk mengukur kemampuan berpikir kritis dan sistematis Anda, yang sangat penting dalam berbagai konteks pekerjaan di pemerintahan.
 
 ---
-
 Catatan:  
-Contoh soal di atas merupakan bagian dari latihan untuk mempersiapkan tes Seleksi Kompetensi Dasar (SKD) CPNS tahun 2023.
+Kedua contoh soal di atas merupakan bagian dari soal Seleksi Kompetensi Dasar (SKD) CPNS tahun 2023. Latihan dengan soal-soal ini akan membantu Anda mempersiapkan diri untuk menghadapi tes yang sebenarnya.
+
+Selamat berlatih dan semoga sukses dalam tes SKD CPNS!
 
 ## Latihan Soal
 
-- [Latihan Soal - Penalaran Analitis (10 Soal) Kategori Penataan dan Hubungan Posisi](/ringkasan-skd-cpns/docs/latihan-soal/soal-verbal/latihan-soal-penalaran-analitis)
-- [Latihan Soal - Penalaran Analitis (10 Soal) Kategori Jalur Maksimal dalam Jaringan](/ringkasan-skd-cpns/docs/latihan-soal/soal-verbal/latihan-soal-penalaran-anlistis-jalur)
+- [Latihan Soal - Penalaran Analitis (20 Soal) Kategori Penataan dan Hubungan Posisi](/ringkasan-skd-cpns/docs/latihan-soal/soal-verbal/latihan-soal-penalaran-analitis)
+- [Latihan Soal - Penalaran Analitis (20 Soal) Kategori Jalur Maksimal dalam Jaringan](/ringkasan-skd-cpns/docs/latihan-soal/soal-verbal/latihan-soal-penalaran-anlistis-jalur)
+
+## Video Penjelasan Soal Penalaran Analitis
+
+<div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', height: 'auto' }}>
+  <iframe 
+    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }} 
+    src="https://www.youtube.com/embed/Kamb7N3XnNE" 
+    title="YouTube video player" 
+    frameBorder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowFullScreen
+  />
+</div>
+
+

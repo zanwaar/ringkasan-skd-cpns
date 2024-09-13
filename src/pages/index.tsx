@@ -40,6 +40,10 @@ export default function Home(): JSX.Element {
       <main>
         <HomepageFeatures />
       </main>
+      <head>
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#fff" />
+      </head>
     </Layout>
   );
 }

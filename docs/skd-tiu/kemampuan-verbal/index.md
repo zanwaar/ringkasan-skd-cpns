@@ -69,7 +69,23 @@ Kedua contoh soal di atas merupakan bagian dari soal Seleksi Kompetensi Dasar (S
 
 Selamat berlatih dan semoga sukses dalam tes SKD CPNS!
 
+
 ## Latihan Soal
 
-- [Latihan Soal - Soal Analogi Berbentuk Kalimat (10 Soal)](/ringkasan-skd-cpns/docs/latihan-soal/soal-verbal/latihan-soal-analogi-berbentuk-kalimat)
-- [Latihan Soal - Soal Analogi Kata (10 Soal)](/ringkasan-skd-cpns/docs/latihan-soal/soal-verbal/soal-analogi-kata)
+- [Latihan Soal - Soal Analogi Berbentuk Kalimat (20 Soal)](/ringkasan-skd-cpns/docs/latihan-soal/soal-verbal/latihan-soal-analogi-berbentuk-kalimat)
+- [Latihan Soal - Soal Analogi Kata (20 Soal)](/ringkasan-skd-cpns/docs/latihan-soal/soal-verbal/soal-analogi-kata)
+
+
+
+## Video Penjelasan  Soal Analogi
+
+<div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', height: 'auto' }}>
+  <iframe 
+    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }} 
+    src="https://www.youtube.com/embed/7At7q5jJsL0" 
+    title="YouTube video player" 
+    frameBorder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowFullScreen
+  />
+</div>
