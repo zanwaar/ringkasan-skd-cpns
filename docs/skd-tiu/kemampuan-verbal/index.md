@@ -64,9 +64,6 @@ Kemampuan verbal, khususnya dalam memahami analogi, sangat penting karena mencer
 
 ---
 
-Catatan:  
-Kedua contoh soal di atas merupakan bagian dari soal Seleksi Kompetensi Dasar (SKD) CPNS tahun 2023. Latihan dengan soal-soal ini akan membantu Anda mempersiapkan diri untuk menghadapi tes yang sebenarnya.
-
 Selamat berlatih dan semoga sukses dalam tes SKD CPNS!
 
 

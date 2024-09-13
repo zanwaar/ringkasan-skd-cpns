@@ -62,9 +62,6 @@ Kemampuan silogisme, khususnya dalam menarik kesimpulan dari premis yang diberik
 
 ---
 
-Catatan:  
-Kedua contoh soal di atas merupakan bagian dari soal Seleksi Kompetensi Dasar (SKD) CPNS tahun 2023.
-
 ## Latihan Soal
 
 - [Latihan Soal - Soal Silogisme Berbentuk Dua Premis (20 Soal)](/ringkasan-skd-cpns/docs/latihan-soal/soal-verbal/soal-silogisme-dua-permis)

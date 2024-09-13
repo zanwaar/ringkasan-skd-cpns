@@ -117,10 +117,6 @@ Kemampuan ini menunjukkan seberapa baik Anda dapat:
 
 Soal-soal penalaran analitis dirancang untuk mengukur kemampuan berpikir kritis dan sistematis Anda, yang sangat penting dalam berbagai konteks pekerjaan di pemerintahan.
 
----
-Catatan:  
-Kedua contoh soal di atas merupakan bagian dari soal Seleksi Kompetensi Dasar (SKD) CPNS tahun 2023. Latihan dengan soal-soal ini akan membantu Anda mempersiapkan diri untuk menghadapi tes yang sebenarnya.
-
 Selamat berlatih dan semoga sukses dalam tes SKD CPNS!
 
 ## Latihan Soal
