@@ -1,7 +1,7 @@
 ---
 id: rangking-list
 title: 📋 Rangking List
-sidebar_label: 🎖️ Rangking List
+sidebar_label: 📋 Testing
 ---
 
 import RankingList from '@site/src/components/RankingList';
@@ -17,7 +17,3 @@ import RankingList from '@site/src/components/RankingList';
 </div>
 
 
-## 📌 Catatan Penting
-
-- **Data Terbaru**: Data yang ditampilkan selalu diperbarui dengan hasil ujian terbaru.
-- **Performa Ujian**: Peringkat ini dapat digunakan untuk mengevaluasi performa dan waktu yang digunakan oleh peserta dalam ujian.

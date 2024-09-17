@@ -29,8 +29,25 @@ d. Karyawan yang memiliki kartu langganan kendaraan umum tidak bekerja di pabrik
 e. Karyawan pabrik sepatu yang menjadi penumpang bis kota tidak memiliki kartu langganan kendaraan umum.
 
 <details>
-<summary><strong>Jawaban:</strong> a. Tidak ada karyawan di pabrik sepatu yang menjadi penumpang bis kota.</summary>
-Penjelasan: Karena semua penumpang bis kota memiliki kartu langganan kendaraan umum dan tidak ada karyawan pabrik sepatu yang memiliki kartu langganan, maka karyawan pabrik sepatu tidak mungkin menjadi penumpang bis kota.
+
+<strong>Jawaban:</strong> a. Tidak ada karyawan di pabrik sepatu yang menjadi penumpang bis kota.
+### Analisis
+
+1. **Semua penumpang bis kota memiliki kartu langganan kendaraan umum.**
+   - Ini berarti jika seseorang adalah penumpang bis kota, maka orang tersebut memiliki kartu langganan kendaraan umum.
+
+2. **Tidak ada karyawan di pabrik sepatu yang memiliki kartu langganan kendaraan umum.**
+   - Ini berarti jika seseorang adalah karyawan di pabrik sepatu, maka orang tersebut tidak memiliki kartu langganan kendaraan umum.
+
+Dari kedua pernyataan tersebut, kita dapat menyimpulkan bahwa:
+
+- Karena semua penumpang bis kota memiliki kartu langganan kendaraan umum, maka tidak mungkin karyawan pabrik sepatu, yang tidak memiliki kartu langganan kendaraan umum, menjadi penumpang bis kota.
+
+### Kesimpulan
+
+Jawaban yang tepat adalah:
+
+**a. Tidak ada karyawan di pabrik sepatu yang menjadi penumpang bis kota.**
 </details>
 
 ### 2. Soal Silogisme Berbentuk Tiga Premis
@@ -52,8 +69,29 @@ d. Lemari itu memiliki nilai keindahan.
 e. Lemari itu tidak dipamerkan.
 
 <details>
-<summary><strong>Jawaban:</strong> c. Lemari itu tidak memiliki nilai keindahan.</summary>
-Penjelasan: Karena lemari itu tidak terbuat dari kayu dan semua lemari yang dipamerkan terbuat dari kayu dan dianggap memiliki nilai keindahan, maka lemari yang tidak terbuat dari kayu tidak bisa memiliki nilai keindahan.
+<strong>Jawaban:</strong> c. Lemari itu tidak memiliki nilai keindahan.
+### Analisis
+
+1. **Semua lemari yang dipamerkan terbuat dari kayu.**
+   - Ini berarti jika sebuah lemari dipamerkan, maka lemari tersebut terbuat dari kayu.
+
+2. **Pengrajin menganggap lemari kayu memiliki nilai keindahan.**
+   - Ini berarti jika sebuah lemari terbuat dari kayu, maka lemari tersebut dianggap memiliki nilai keindahan oleh pengrajin.
+
+3. **Lemari itu tidak terbuat dari kayu.**
+   - Ini berarti lemari tersebut tidak memenuhi kriteria pertama (tidak terbuat dari kayu).
+
+Berdasarkan informasi ini:
+
+- Karena lemari tersebut tidak terbuat dari kayu, maka dari pernyataan pertama kita dapat menyimpulkan bahwa lemari tersebut tidak dipamerkan (karena semua lemari yang dipamerkan harus terbuat dari kayu).
+
+- Selain itu, karena lemari tersebut tidak terbuat dari kayu, maka dari pernyataan kedua kita juga dapat menyimpulkan bahwa lemari tersebut tidak memiliki nilai keindahan (karena hanya lemari kayu yang dianggap memiliki nilai keindahan oleh pengrajin).
+
+### Kesimpulan
+
+Jawaban yang tepat adalah:
+
+**c. Lemari itu tidak memiliki nilai keindahan.**
 </details>
 
 ## Pentingnya Kemampuan Silogisme dalam Tes CPNS

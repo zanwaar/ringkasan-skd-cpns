@@ -33,7 +33,29 @@ e. Pada teater terdapat panggung dan hiburan
 
 <details>
 <summary><strong>Jawaban:</strong> b. Pada lagu terdapat intro dan outro</summary>
-Penjelasan: Kalimat "Pada sepatu terdapat lubang tali dan sol" menunjukkan bahwa kedua objek (lubang tali dan sol) adalah bagian integral dari sepatu, sama seperti intro dan outro adalah bagian integral dari lagu.
+Untuk menemukan hubungan yang setara dengan kalimat "Pada sepatu terdapat lubang tali dan sol", kita harus mencari pilihan yang menunjukkan dua komponen atau elemen yang terkait langsung dengan satu objek atau konsep. Dalam kalimat tersebut, **lubang tali** dan **sol** adalah bagian-bagian dari sepatu.
+
+Mari kita analisis pilihan jawaban:
+
+a. **Pada film terdapat intro dan gitar**  
+   - **Intro** adalah bagian dari film, tetapi **gitar** bukan bagian dari film secara langsung, melainkan alat musik yang mungkin digunakan dalam soundtrack. Hubungan ini tidak setara.
+
+b. **Pada lagu terdapat intro dan outro**  
+   - **Intro** dan **outro** adalah bagian-bagian dari sebuah lagu. Ini mirip dengan bagaimana **lubang tali** dan **sol** adalah bagian dari sepatu. Hubungan ini setara.
+
+c. **Pada drama terdapat suara dan musik**  
+   - **Suara** dan **musik** adalah elemen yang sering ada dalam drama, tetapi mereka tidak merupakan bagian dari drama itu sendiri, melainkan komponen yang menyertainya. Hubungan ini tidak setara.
+
+d. **Pada sinetron terdapat hiburan dan bioskop**  
+   - **Hiburan** adalah jenis dari sinetron, tetapi **bioskop** adalah tempat di mana sinetron mungkin diputar. Ini tidak menggambarkan hubungan bagian-bagian dari satu objek yang sama. Hubungan ini tidak setara.
+
+e. **Pada teater terdapat panggung dan hiburan**  
+   - **Panggung** adalah bagian dari teater, tetapi **hiburan** adalah hasil dari teater, bukan bagian dari teater itu sendiri. Hubungan ini tidak setara.
+
+Dengan demikian, pilihan yang paling sesuai dengan hubungan kata yang setara adalah:
+
+**b. Pada lagu terdapat intro dan outro**
+
 </details>
 
 ### 2. Soal Analogi Berbentuk Pasangan Kata
@@ -69,8 +91,8 @@ Selamat berlatih dan semoga sukses dalam tes SKD CPNS!
 
 ## Latihan Soal
 
-- [Latihan Soal - Soal Analogi Berbentuk Kalimat (20 Soal)](/ringkasan-skd-cpns/docs/latihan-soal/soal-verbal/latihan-soal-analogi-berbentuk-kalimat)
-- [Latihan Soal - Soal Analogi Kata (20 Soal)](/ringkasan-skd-cpns/docs/latihan-soal/soal-verbal/soal-analogi-kata)
+- [Latihan Soal - Soal Analogi Berbentuk Kalimat ](/ringkasan-skd-cpns/docs/latihan-soal/soal-verbal/latihan-soal-analogi-berbentuk-kalimat)
+- [Latihan Soal - Soal Analogi Kata ](/ringkasan-skd-cpns/docs/latihan-soal/soal-verbal/soal-analogi-kata)
 
 
 

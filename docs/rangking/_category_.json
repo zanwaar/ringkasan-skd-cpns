@@ -1,0 +1,8 @@
+{
+  "label": "🎖️ Rangking List",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "peringkat peserta ujian berdasarkan nilai dan durasi waktu"
+  } 
+}

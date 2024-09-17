@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Tes Karakteristik Pribadi (TKP)
+title: Tes Karakteristik Pribadi
 sidebar_label: Materi
 ---
 
