@@ -51,7 +51,7 @@ Dengan susunan ini, **Bejo** berada di antara **Reza** dan **Anto**.
 
 </details>
 
-### Contoh Soal 1 
+### Contoh Soal 1
 
 #### Kategori : Penataan dan Hubungan Posisi Lingkaran (Contoh Soal 2)
 
@@ -94,7 +94,7 @@ Jadi, jawaban yang benar adalah:
 
 ### Contoh Soal 2 (SKD CPNS 2023):
 
-#### Kategori : Jalur Maksimal dalam Jaringan 
+#### Kategori : Jalur Maksimal dalam Jaringan
 
 Pada liburan sekolah, Wisnu berlibur ke Dufan dan dia mulai berjalan melalui pintu masuk wahana. Pos A dekat dengan pintu masuk yang terhubung dengan pos B dan pos C. Setelah ia berjalan, ia melihat bahwa Pos C terhubung dengan pos B, pos D, dan pos E; kemudian pos D terhubung dengan pos G. Sedangkan pos E terhubung dengan pos F dan pos G yang dekat dengan pintu keluar terhubung dengan pos F.
 
@@ -154,9 +154,7 @@ Jadi, maksimal pos wahana permainan yang dilewati Wisnu dalam sekali jalan adala
 
 import GaleriDiagram from '@site/src/components/diagram/GaleriDiagram';
 
-
-
-#### Kategori : Jalur Maksimal dalam Jaringan 
+#### Kategori : Jalur Maksimal dalam Jaringan
 
 Di sebuah pusat perbelanjaan, terdapat 9 toko yang terhubung sebagai berikut: Toko 1 terhubung dengan toko 2 dan toko 3. Toko 2 terhubung dengan toko 4 dan toko 5. Toko 3 terhubung dengan toko 6. Toko 4 terhubung dengan toko 7. Toko 5 terhubung dengan toko 8 dan toko 9. Berapa maksimal toko yang bisa dikunjungi dalam satu perjalanan mulai dari Toko 1?
 
@@ -231,6 +229,114 @@ Jumlah maksimum toko yang bisa dikunjungi dalam satu perjalanan mulai dari Toko 
 
 </details>
 
+# Soal
+
+Sebuah toko bunga menjual lima jenis rangkaian bunga: Mawar (M), Tulip (T), Anggrek (A), Lily (L), dan Krisan (K). Setiap rangkaian memiliki karakteristik berikut:
+
+- Semua rangkaian menggunakan daun hijau sebagai latar.
+- Pita sutra digunakan pada M, T, dan A, tapi tidak pada L dan K.
+- Vas kaca hanya digunakan untuk M dan L.
+- Semprotan glitter diterapkan pada T, A, dan K.
+- Kartu ucapan disertakan pada semua rangkaian kecuali A dan K.
+
+Seorang pelanggan memesan rangkaian bunga dengan ciri-ciri sebagai berikut:
+
+1. Menggunakan daun hijau
+2. Dihias dengan pita sutra
+3. Tidak menggunakan vas kaca
+4. Disemprot dengan glitter
+5. Disertai kartu ucapan
+
+Rangkaian bunga manakah yang dipesan oleh pelanggan tersebut?
+
+a. Bunga Mawar  
+b. Bunga Tulip  
+c. Bunga Anggrek  
+d. Bunga Lily  
+e. Bunga Krisan
+
+---
+
+<details>
+<summary><strong>Jawaban:</strong> b. Bunga Tulip </summary>
+
+### Jawaban dan Penjelasan
+
+Mari kita analisis ciri-ciri yang dibutuhkan oleh pelanggan:
+
+1. **Menggunakan daun hijau**: Semua rangkaian bunga menggunakan daun hijau.
+2. **Dihias dengan pita sutra**: Pita sutra digunakan pada Mawar (M), Tulip (T), dan Anggrek (A).
+3. **Tidak menggunakan vas kaca**: Vas kaca hanya digunakan untuk Mawar (M) dan Lily (L). Jadi, rangkaian yang tidak menggunakan vas kaca adalah Tulip (T), Anggrek (A), dan Krisan (K).
+4. **Disemprot dengan glitter**: Glitter diterapkan pada Tulip (T), Anggrek (A), dan Krisan (K).
+5. **Disertai kartu ucapan**: Kartu ucapan disertakan pada semua rangkaian kecuali Anggrek (A) dan Krisan (K).
+
+Sekarang kita cari rangkaian yang memenuhi semua ciri-ciri tersebut:
+
+- **Mawar (M)**: Menggunakan daun hijau, dihias dengan pita sutra, menggunakan vas kaca, tidak disemprot glitter, disertai kartu ucapan. (Tidak memenuhi karena menggunakan vas kaca dan tidak disemprot glitter)
+- **Tulip (T)**: Menggunakan daun hijau, dihias dengan pita sutra, tidak menggunakan vas kaca, disemprot glitter, disertai kartu ucapan. (Memenuhi semua ciri-ciri)
+- **Anggrek (A)**: Menggunakan daun hijau, dihias dengan pita sutra, tidak menggunakan vas kaca, disemprot glitter, tidak disertai kartu ucapan. (Tidak memenuhi karena tidak disertai kartu ucapan)
+- **Lily (L)**: Menggunakan daun hijau, tidak dihias dengan pita sutra, menggunakan vas kaca, tidak disemprot glitter, disertai kartu ucapan. (Tidak memenuhi karena tidak dihias dengan pita sutra dan disemprot glitter)
+- **Krisan (K)**: Menggunakan daun hijau, tidak dihias dengan pita sutra, tidak menggunakan vas kaca, disemprot glitter, tidak disertai kartu ucapan. (Tidak memenuhi karena tidak dihias dengan pita sutra dan tidak disertai kartu ucapan)
+
+**Jadi, rangkaian bunga yang dipesan oleh pelanggan tersebut adalah:**
+
+- **Bunga Tulip (T)**
+</details>
+# Soal CPNS
+
+Lima atlet (Andi, Budi, Citra, Doni, Eka) masing-masing menyukai satu olahraga yang berbeda (Sepak Bola, Basket, Tenis, Renang, dan Lari). Diketahui pula sebagai berikut:
+
+1. Andi dan Budi menyukai olahraga yang menggunakan bola.
+2. Citra tidak menyukai olahraga air atau olahraga yang dilakukan sendirian.
+3. Doni adalah teman dekat atlet yang menyukai Tenis, tapi dia sendiri tidak menyukai olahraga raket.
+4. Eka sering berlatih di trek lari bersama temannya yang menyukai olahraga air.
+5. Atlet yang menyukai Basket sering bermain one-on-one dengan Citra.
+6. Andi bukan penggemar olahraga indoor.
+
+Siapakah yang menyukai olahraga Renang?
+
+a. Andi  
+b. Budi  
+c. Citra  
+d. Doni  
+e. Eka  
+
+<details>
+<summary><strong>Jawaban:</strong> d. Doni </summary>
+
+### Jawaban dan Penjelasan
+
+Mari kita analisis informasi yang diberikan untuk menentukan siapa yang menyukai olahraga Renang. Berikut adalah tips eliminasi opsi:
+
+1. **Eka**:
+   - **Eka** sering berlatih di trek lari dan temannya yang menyukai Renang adalah atlet lain. Jadi Eka menyukai Lari dan bukan Renang.
+   - **Eliminasi**: Eka (e)
+
+2. **Citra**:
+   - **Citra** tidak menyukai olahraga air (Renang) atau olahraga yang dilakukan sendirian (Tenis). Jadi Citra tidak bisa menyukai Renang.
+   - **Eliminasi**: Citra (c)
+
+3. **Doni**:
+   - **Doni** adalah teman dekat atlet yang menyukai Tenis, tetapi Doni sendiri tidak menyukai olahraga raket. Jadi Doni bisa menyukai Sepak Bola, Basket, Renang, atau Lari, tetapi bukan Tenis.
+   - Karena Doni tidak menyukai Tenis, dan Andi dan Budi menyukai olahraga yang menggunakan bola, serta Doni tidak menyukai olahraga raket dan basket (yang disukai Citra), maka Doni kemungkinan besar menyukai Renang.
+   - **Kemungkinan besar**: Doni (d)
+
+4. **Andi**:
+   - **Andi** dan **Budi** menyukai olahraga yang menggunakan bola, yaitu Sepak Bola atau Basket. Andi bukan penggemar olahraga indoor, sehingga Andi tidak menyukai Tenis. Jadi Andi menyukai Sepak Bola atau Basket.
+   - **Eliminasi**: Andi (a)
+
+5. **Budi**:
+   - **Budi** menyukai olahraga yang menggunakan bola, yaitu Sepak Bola atau Basket. Jika Andi menyukai Sepak Bola, maka Budi menyukai Basket, dan sebaliknya.
+   - Karena Budi adalah salah satu dari dua orang yang menyukai olahraga dengan bola dan Doni bukan teman dekat atlet yang menyukai Tenis, Budi tidak bisa menyukai Renang.
+   - **Eliminasi**: Budi (b)
+
+Dengan informasi ini, atlet yang menyukai olahraga Renang adalah **Doni**.
+
+**Jadi, atlet yang menyukai olahraga Renang adalah:**
+
+- **Doni (d)**
+</details>
+
 ## Latihan Soal
 
 - [Latihan Soal - Penalaran Analitis (20 Soal) Kategori Penataan dan Hubungan Posisi](/ringkasan-skd-cpns/docs/latihan-soal/soal-verbal/latihan-soal-penalaran-analitis)
@@ -252,7 +358,7 @@ Jumlah maksimum toko yang bisa dikunjungi dalam satu perjalanan mulai dari Toko 
 <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', height: 'auto' }}>
   <iframe 
     style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }} 
-    src="https://www.youtube.com/embed/34Wnng8whmA" 
+    src="https://www.youtube.com/embed/jOBXIgqpEMA" 
     title="YouTube video player" 
     frameBorder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
