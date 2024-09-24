@@ -4,7 +4,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Ringkasan SKD CPNS",
-  tagline: "Mengunkan teknologi kecerdasan buatan (AI) untuk memastikan kualitas dan relevansi materi",
+  tagline: "Menggunakan teknologi kecerdasan buatan (AI) untuk memastikan kualitas dan relevansi materi",
   favicon: "img/fun.ico",
 
   url: "https://zanwaar.github.io",
@@ -28,6 +28,8 @@ const config: Config = {
         docs: {
           sidebarPath: "./sidebars.ts",
           editUrl: "https://github.com/zanwaar/ringkasan-cpns-skd/tree/main/",
+          remarkPlugins: [require("remark-math")],
+          rehypePlugins: [require("rehype-katex")],
         },
         blog: {
           showReadingTime: true,
@@ -39,6 +41,8 @@ const config: Config = {
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
+          remarkPlugins: [require("remark-math")],
+          rehypePlugins: [require("rehype-katex")],
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -79,7 +83,7 @@ const config: Config = {
     },
   } satisfies Preset.ThemeConfig,
 
-  // Tambahkan plugin PWA di bawah ini
+  // Plugin PWA tanpa konfigurasi remark/re-hype math
   plugins: [
     [
       '@docusaurus/plugin-pwa',

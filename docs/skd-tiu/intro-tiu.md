@@ -19,7 +19,7 @@ Tes Intelegensia Umum (TIU) mengukur kemampuan intelektual dan logika dasar pese
 ### 2. **Kemampuan Numerik**
 
 - **Deret Bilangan**: Menyelesaikan pola bilangan yang berurutan.
-- **Berhitung**: Menghitung dan menyelesaikan soal-soal yang melibatkan pecahan.
+- **Operasi Pecahan**: Menghitung dan menyelesaikan soal-soal yang melibatkan pecahan.
 - **Perbandingan Kuantitatif**: Membandingkan dua nilai numerik dan menentukan perbandingannya.
 - **Soal Cerita**: Menggunakan data dalam bentuk cerita untuk menyelesaikan masalah matematika.
 
