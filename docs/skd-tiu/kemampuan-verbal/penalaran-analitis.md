@@ -7,7 +7,7 @@ sidebar_label: Penalaran Analitis
 import PosDiagram from '@site/src/components/PosDiagram';
 import CircleSeating from '@site/src/components/diagram/CircleSeating';
 
-# Penalaran Analitis: Soal Penalaran Analitis
+# Analitis
 
 ## Jenis Soal Penalaran Analitis
 

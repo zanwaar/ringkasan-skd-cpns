@@ -193,3 +193,176 @@ Laci dan kaki adalah dua bagian dari meja, di mana laci digunakan untuk penyimpa
 Tali dan ritsleting adalah komponen dari tas; tali digunakan untuk membawa tas dan ritsleting untuk menutupnya. Ini tidak mencerminkan hubungan antara dua komponen struktural internal seperti jarum dan kaca pada jam tangan.
 
 </details>
+
+## Soal 6
+
+**Kalimat:** "Pada meja terdapat kaki dan permukaan."
+
+**Pilihan Jawaban:**
+
+a. Pada buku terdapat sampul dan halaman  
+b. Pada rumah terdapat atap dan pondasi  
+c. Pada sepatu terdapat tali dan sol  
+d. Pada piring terdapat nasi dan lauk  
+e. Pada mobil terdapat kaca dan roda
+
+**Penjelasan:**
+
+<details>
+<strong>Jawaban:</strong> b. Pada rumah terdapat atap dan pondasi
+
+**a. Pada buku terdapat sampul dan halaman**  
+Sampul dan halaman memang merupakan bagian dari buku, tetapi mereka tidak berfungsi secara fisik seperti kaki dan permukaan pada meja.
+
+**b. Pada rumah terdapat atap dan pondasi**  
+Atap dan pondasi adalah komponen struktural utama rumah, mirip dengan hubungan antara kaki dan permukaan pada meja.
+
+**c. Pada sepatu terdapat tali dan sol**  
+Meskipun tali dan sol adalah bagian dari sepatu, mereka tidak memiliki fungsi struktural yang setara dengan kaki dan permukaan meja.
+
+**d. Pada piring terdapat nasi dan lauk**  
+Nasi dan lauk bukan bagian dari struktur piring, jadi tidak cocok dengan hubungan struktural antara kaki dan permukaan meja.
+
+**e. Pada mobil terdapat kaca dan roda**  
+Kaca dan roda adalah komponen mobil, tetapi mereka tidak mencerminkan hubungan struktural yang sama seperti pada meja.
+</details>
+
+---
+
+## Soal 7
+
+**Kalimat:** "Pada laptop terdapat layar dan keyboard."
+
+**Pilihan Jawaban:**
+
+a. Pada televisi terdapat layar dan remote  
+b. Pada ponsel terdapat kamera dan layar  
+c. Pada mobil terdapat setir dan pedal  
+d. Pada rumah terdapat jendela dan pintu  
+e. Pada sepeda terdapat sadel dan pedal
+
+**Penjelasan:**
+
+<details>
+<strong>Jawaban:</strong> b. Pada ponsel terdapat kamera dan layar
+
+**a. Pada televisi terdapat layar dan remote**  
+Remote tidak merupakan bagian dari televisi secara fisik, seperti halnya keyboard adalah bagian dari laptop.
+
+**b. Pada ponsel terdapat kamera dan layar**  
+Kamera dan layar adalah komponen utama dari ponsel, mirip dengan hubungan antara layar dan keyboard pada laptop.
+
+**c. Pada mobil terdapat setir dan pedal**  
+Setir dan pedal adalah bagian fungsional dari mobil, namun hubungan ini tidak sebanding dengan komponen fisik laptop.
+
+**d. Pada rumah terdapat jendela dan pintu**  
+Jendela dan pintu adalah bagian dari rumah, tetapi bukan komponen yang saling berkaitan seperti layar dan keyboard pada laptop.
+
+**e. Pada sepeda terdapat sadel dan pedal**  
+Sadel dan pedal adalah bagian dari sepeda, tetapi hubungan mereka tidak setara dengan komponen laptop.
+</details>
+
+---
+
+## Soal 8
+
+**Kalimat:** "Pada mobil terdapat mesin dan roda."
+
+**Pilihan Jawaban:**
+
+a. Pada sepeda terdapat rantai dan pedal  
+b. Pada laptop terdapat prosesor dan layar  
+c. Pada kapal terdapat jangkar dan layar  
+d. Pada buku terdapat tulisan dan kertas  
+e. Pada sepeda motor terdapat mesin dan knalpot
+
+**Penjelasan:**
+
+<details>
+<strong>Jawaban:</strong> e. Pada sepeda motor terdapat mesin dan knalpot
+
+**a. Pada sepeda terdapat rantai dan pedal**  
+Rantai dan pedal adalah bagian dari sepeda, tetapi hubungan ini tidak sebanding dengan mesin dan roda pada mobil.
+
+**b. Pada laptop terdapat prosesor dan layar**  
+Prosesor dan layar adalah komponen elektronik, bukan komponen fisik dan fungsional seperti mesin dan roda.
+
+**c. Pada kapal terdapat jangkar dan layar**  
+Jangkar dan layar tidak memiliki hubungan struktural yang mirip dengan mesin dan roda pada mobil.
+
+**d. Pada buku terdapat tulisan dan kertas**  
+Tulisan dan kertas tidak menunjukkan hubungan mekanis atau fungsional yang serupa dengan mesin dan roda.
+
+**e. Pada sepeda motor terdapat mesin dan knalpot**  
+Mesin dan knalpot adalah dua komponen penting sepeda motor yang fungsinya mirip dengan mesin dan roda pada mobil.
+</details>
+
+---
+
+## Soal 9
+
+**Kalimat:** "Pada tas terdapat ritsleting dan tali."
+
+**Pilihan Jawaban:**
+
+a. Pada sepatu terdapat sol dan tali  
+b. Pada dompet terdapat kancing dan kompartemen  
+c. Pada lemari terdapat pintu dan laci  
+d. Pada jaket terdapat resleting dan kantong  
+e. Pada meja terdapat kaki dan permukaan
+
+**Penjelasan:**
+
+<details>
+<strong>Jawaban:</strong> d. Pada jaket terdapat resleting dan kantong
+
+**a. Pada sepatu terdapat sol dan tali**  
+Sol dan tali adalah bagian dari sepatu, tetapi mereka tidak memiliki hubungan fungsional yang sama dengan ritsleting dan tali pada tas.
+
+**b. Pada dompet terdapat kancing dan kompartemen**  
+Kancing dan kompartemen bukan merupakan komponen fisik yang setara dengan ritsleting dan tali pada tas.
+
+**c. Pada lemari terdapat pintu dan laci**  
+Pintu dan laci adalah komponen dari lemari, namun mereka tidak memiliki hubungan yang sebanding dengan ritsleting dan tali.
+
+**d. Pada jaket terdapat resleting dan kantong**  
+Resleting dan kantong adalah bagian dari jaket yang fungsinya mirip dengan ritsleting dan tali pada tas.
+
+**e. Pada meja terdapat kaki dan permukaan**  
+Kaki dan permukaan adalah bagian struktural meja, tetapi mereka tidak memiliki fungsi yang mirip dengan ritsleting dan tali pada tas.
+</details>
+
+---
+
+## Soal 10
+
+**Kalimat:** "Pada jam tangan terdapat tali dan jarum jam."
+
+**Pilihan Jawaban:**
+
+a. Pada televisi terdapat layar dan speaker  
+b. Pada sepeda terdapat roda dan sadel  
+c. Pada kaca mata terdapat lensa dan gagang  
+d. Pada komputer terdapat mouse dan monitor  
+e. Pada buku terdapat halaman dan sampul
+
+**Penjelasan:**
+
+<details>
+<strong>Jawaban:</strong> c. Pada kaca mata terdapat lensa dan gagang
+
+**a. Pada televisi terdapat layar dan speaker**  
+Layar dan speaker tidak memiliki hubungan struktural yang sama seperti tali dan jarum pada jam tangan.
+
+**b. Pada sepeda terdapat roda dan sadel**  
+Roda dan sadel tidak mencerminkan hubungan antara komponen kecil seperti tali dan jarum pada jam tangan.
+
+**c. Pada kaca mata terdapat lensa dan gagang**  
+Lensa dan gagang adalah dua bagian utama dari kacamata, mirip dengan tali dan jarum pada jam tangan.
+
+**d. Pada komputer terdapat mouse dan monitor**  
+Mouse dan monitor adalah perangkat yang bekerja bersama, tetapi mereka tidak memiliki hubungan fisik yang mirip dengan tali dan jarum pada jam tangan.
+
+**e. Pada buku terdapat halaman dan sampul**  
+Halaman dan sampul adalah bagian dari buku, tetapi hubungan mereka tidak sebanding dengan tali dan jarum pada jam tangan.
+</details>

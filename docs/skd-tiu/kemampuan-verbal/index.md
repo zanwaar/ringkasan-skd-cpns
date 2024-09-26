@@ -4,11 +4,10 @@ title: Kemampuan Verbal - Soal Analogi
 sidebar_label: Analogi
 ---
 
-# Kemampuan Verbal: Soal Analogi
+# Analogi
+Analogi mengukur kemampuan individu dalam bernalar melalui perbandingan dua konsep kata yang memiliki hubungan tertentu. Dalam tes ini, peserta diharapkan dapat memahami dan menggunakan konsep hubungan tersebut pada situasi lain.
 
 ## Jenis Soal Analogi
-
-Dalam tes Seleksi Kompetensi Dasar (SKD) CPNS, terdapat dua jenis utama soal analogi yang sering muncul:
 
 ### 1. Soal Analogi Berbentuk Kalimat
 
@@ -65,28 +64,19 @@ Pada jenis soal ini, Anda akan diberikan dua kata yang memiliki hubungan tertent
 #### Contoh Soal (SKD CPNS 2023):
 
 **Soal:**  
-Statistika : Data Geologi : ...
-
-**Pilihan Jawaban:**
-
-a. Tanah  
-b. Bumi  
-c. Batu  
-d. Pemetaan  
-e. Air
+Statistika : Data Geologi : ...  
+A. Tanah  
+B. Bumi  
+C. Batu  
+D. Pemetaan  
+E. Air  
 
 <details>
-<summary><strong>Jawaban:</strong> d. Pemetaan</summary>
-Penjelasan: Statistika berhubungan dengan data, seperti Geologi berhubungan dengan pemetaan. Keduanya menggambarkan disiplin ilmu yang memanfaatkan data atau informasi dalam bidangnya masing-masing.
+<summary><strong>Jawaban:</strong> D. Pemetaan</summary>
+**Hubungan:** Statistika digunakan untuk menganalisis data geologi, sedangkan pemetaan digunakan untuk merepresentasikan data geospasial.  
+**Penjelasan:** Seperti statistika yang mengolah dan menganalisis data geologi untuk menghasilkan informasi yang berguna, pemetaan adalah metode untuk menggambarkan informasi geologi dalam bentuk visual yang dapat dipahami.
 </details>
 
-## Pentingnya Kemampuan Verbal dalam Tes CPNS
-
-Kemampuan verbal, khususnya dalam memahami analogi, sangat penting karena mencerminkan kemampuan berpikir logis, kemampuan memahami hubungan antara konsep, dan kemampuan menganalisis informasi secara cepat dan tepat. Soal-soal ini dirancang untuk menguji seberapa baik Anda bisa memahami hubungan antara konsep dan menerapkan logika tersebut dalam situasi baru.
-
----
-
-Selamat berlatih dan semoga sukses dalam tes SKD CPNS!
 
 
 ## Latihan Soal
@@ -94,17 +84,3 @@ Selamat berlatih dan semoga sukses dalam tes SKD CPNS!
 - [Latihan Soal - Soal Analogi Berbentuk Kalimat ](/ringkasan-skd-cpns/docs/latihan-soal/soal-verbal/latihan-soal-analogi-berbentuk-kalimat)
 - [Latihan Soal - Soal Analogi Kata ](/ringkasan-skd-cpns/docs/latihan-soal/soal-verbal/soal-analogi-kata)
 
-
-
-## Video Penjelasan  Soal Analogi
-
-<div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', maxWidth: '100%', height: 'auto' }}>
-  <iframe 
-    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }} 
-    src="https://www.youtube.com/embed/7At7q5jJsL0" 
-    title="YouTube video player" 
-    frameBorder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowFullScreen
-  />
-</div>
