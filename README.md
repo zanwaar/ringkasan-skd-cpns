@@ -21,4 +21,13 @@ Pastikan Anda telah menginstal [Node.js](https://nodejs.org/) dan [Yarn](https:/
 Clone repository ini ke mesin lokal Anda:
 
 ```bash
-git clone https://github.com/zanwaar/skd-cpns.git
+git https://github.com/zanwaar/ringkasan-skd-cpns.git
+
+```bash
+cd ringkasan-skd-cpns
+
+```bash
+npm i
+
+```bash
+npm start
