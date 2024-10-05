@@ -1,6 +1,7 @@
 import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
+import tailwindPlugin from "./tailwind-config.cjs";
 
 const config: Config = {
   title: "Ringkasan SKD CPNS",
@@ -85,6 +86,7 @@ const config: Config = {
 
   // Plugin PWA tanpa konfigurasi remark/re-hype math
   plugins: [
+    tailwindPlugin, 
     [
       '@docusaurus/plugin-pwa',
       {
