@@ -2,67 +2,37 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom"; // Import Link
 import { CheckCircle2, Timer, XCircle } from "lucide-react";
 import Layout from "@theme/Layout";
-import BrowserOnly from "@docusaurus/BrowserOnly"; // Import BrowserOnly
-
-// Define types for the quiz data
-interface PilihanJawaban {
-  pilihan: string[];
-  jawabanBenar: number;
-  pembahasan: string;
-}
-
-interface Pertanyaan {
-  teksPertanyaan: string;
-  pilihanJawaban: string[];
-  jawabanBenar: number;
-  pembahasan: string;
-}
-
-interface KuisData {
-  judulKuis: string;
-  durasi: string;
-  jumlahSoal: number;
-  pertanyaan: Pertanyaan[];
-}
+import BrowserOnly from "@docusaurus/BrowserOnly";
 
 const Kuis: React.FC = () => {
-  const [kuis, setKuis] = useState<KuisData | null>(null);
-  const [jawabanUser, setJawabanUser] = useState<(number | null)[]>([]);
+  const kuisData = typeof window !== "undefined" ? localStorage.getItem('generatedQuestions') : null;
+  const kuis = kuisData ? JSON.parse(kuisData) : null;
+
+
+  if  (!kuis) {
+    return <div className="text-red-500">Data kuis tidak ditemukan.</div>;
+  }
+
+  const durasiMenit = parseInt(kuis.durasi);
+  const [jawabanUser, setJawabanUser] = useState(Array(kuis.jumlahSoal).fill(null));
   const [selesai, setSelesai] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(0); // Set initial time left to 0
+  const [timeLeft, setTimeLeft] = useState(durasiMenit * 60); // Konversi menit ke detik
 
-  // Load the quiz data after the component mounts
   useEffect(() => {
-    const kuisData = localStorage.getItem("generatedQuestions");
-    const quiz: KuisData | null = kuisData ? JSON.parse(kuisData) : null;
+    const timer = setInterval(() => {
+      setTimeLeft((prev) => {
+        if (prev <= 0) {
+          clearInterval(timer); 
+          setSelesai(true); 
+          return 0;
+        }
+        return prev - 1;
+      });
+    }, 1000);
 
-    if (!quiz) {
-      console.error("Data kuis tidak ditemukan.");
-      return;
-    }
-    console.log(quiz);
-    const durasiMenit = parseInt(quiz.durasi);
-    setKuis(quiz);
-    setJawabanUser(Array(quiz.jumlahSoal).fill(null));
-    setTimeLeft(durasiMenit * 60);
+    return () => clearInterval(timer);
   }, []);
-
-  useEffect(() => {
-    if (timeLeft > 0) {
-      const timer = setInterval(() => {
-        setTimeLeft((prev) => {
-          if (prev <= 0) {
-            clearInterval(timer);
-            setSelesai(true);
-            return 0;
-          }
-          return prev - 1;
-        });
-      }, 1000);
-      return () => clearInterval(timer);
-    }
-  }, [timeLeft]);
 
   const handleJawabanChange = (index: number, value: number) => {
     const updatedJawabanUser = [...jawabanUser];
@@ -86,7 +56,7 @@ const Kuis: React.FC = () => {
     }
   };
 
-  // Format time into minutes and seconds
+
   const formatTime = (seconds: number) => {
     const minutes = Math.floor(seconds / 60);
     const remainingSeconds = seconds % 60;
@@ -94,8 +64,6 @@ const Kuis: React.FC = () => {
   };
 
   const renderHasil = () => {
-    if (!kuis) return null; // Ensure kuis is not null
-
     return (
       <Layout title={`Funpice AI Generator`} description="Informasi dan latihan untuk tes CPNS.">
         <div className="mt-8 p-8 ">
@@ -133,8 +101,6 @@ const Kuis: React.FC = () => {
   };
 
   const renderSoal = () => {
-    if (!kuis) return null; // Ensure kuis is not null
-
     return (
       <>
         <div className="mb-6 p-4 border rounded-lg shadow-md ">
@@ -156,7 +122,6 @@ const Kuis: React.FC = () => {
           ))}
         </div>
 
-        {/* Prev and Next buttons */}
         <div className="flex justify-between mb-4">
           <div className="text-lg font-semibold">
             Soal {currentQuestion + 1} dari {kuis.pertanyaan.length}
@@ -179,7 +144,6 @@ const Kuis: React.FC = () => {
           </div>
         </div>
 
-        {/* Submit button */}
         {currentQuestion === kuis.pertanyaan.length - 1 && (
           <div
             onClick={handleSubmit}
@@ -193,10 +157,9 @@ const Kuis: React.FC = () => {
   };
 
   if (selesai) {
-    return renderHasil(); // Display results if finished
+    return renderHasil(); 
   }
 
-  // Render the component with BrowserOnly to avoid SSR issues
   return (
     <BrowserOnly>
       {() => (
@@ -213,7 +176,7 @@ const Kuis: React.FC = () => {
                 </div>
                 <Link to="/ringkasan-skd-cpns/ai-funpice">Buat Ulang</Link>
               </div>
-              {renderSoal()} {/* Display questions if quiz is not finished */}
+              {renderSoal()}
             </div>
           </div>
         </Layout>

@@ -1,19 +1,16 @@
 import React, { useState } from 'react';
 import Modal from './ModalGenerateSoal';
 
-// Definisikan interface untuk properti Subkategori
 interface Subkategori {
   judul: string;
   deskripsi: string;
-  prompt: string; // Tambahkan prompt di sini
+  prompt: string;
 }
 
-// Definisikan interface untuk properti SubkategoriCard
 interface SubkategoriCardProps {
   subkategori: Subkategori;
 }
 
-// Komponen SubkategoriCard
 const SubkategoriCard: React.FC<SubkategoriCardProps> = ({ subkategori }) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -35,7 +32,7 @@ const SubkategoriCard: React.FC<SubkategoriCardProps> = ({ subkategori }) => {
         onClose={handleCloseModal}
         title={subkategori.judul}
         description={subkategori.deskripsi}
-        prompt={subkategori.prompt} // Tambahkan prompt di sini
+        prompt={subkategori.prompt} 
       />
     </div>
   );

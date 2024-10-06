@@ -1,14 +1,13 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom"; // Import useHistory
-import { chatSession } from "./AiModel";
-
+import { chatSession } from "./AIModelGemini";
 
 interface ModalProps {
   isOpen: boolean;
   onClose: () => void;
   title: string;
   description: string;
-  prompt: string; // Tambahkan prop prompt
+  prompt: string; 
 }
 
 const Modal: React.FC<ModalProps> = ({
@@ -33,15 +32,14 @@ const Modal: React.FC<ModalProps> = ({
     try {
       localStorage.removeItem("generatedQuestions");
       const result = await chatSession.sendMessage(FINAL_PROMT);
-      const generatedQuestions = result.response.text(); // Get the generated questions
+      const generatedQuestions = result.response.text(); 
 
       localStorage.setItem("generatedQuestions", generatedQuestions);
 
-      // Redirect to the quizzes page
       history.push("/ringkasan-skd-cpns/quiz");
     } catch (error) {
       console.error("Error generating soal:", error);
-      alert("Maaf Coba lagi nanti"); // Close alert after action
+      alert("Maaf Coba lagi nanti"); 
     } finally {
       setLoading(false);
       onClose();
@@ -110,11 +108,11 @@ const Modal: React.FC<ModalProps> = ({
               <div className="flex justify-end">
               <button
                 type="submit"
-                disabled={!prompt.trim()} // Disable if prompt is empty or contains only whitespace
+                disabled={!prompt.trim()} 
                 className={`px-4 py-2 rounded text-white transition duration-300 ${
                     !prompt.trim() 
-                    ? 'bg-gray-400 cursor-not-allowed'  // Gray background when disabled
-                    : 'bg-green-500 hover:bg-green-600' // Green background when enabled
+                    ? 'bg-gray-400 cursor-not-allowed' 
+                    : 'bg-green-500 hover:bg-green-600' 
                 }`}
                 >
                 Generated Soal
