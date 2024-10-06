@@ -123,6 +123,6 @@ Jawaban yang tepat adalah:
 
 ## Latihan Soal
 
-- [Latihan Soal - Soal Silogisme Berbentuk Dua Premis (20 Soal)](/ringkasan-skd-cpns/docs/latihan-soal/soal-verbal/soal-silogisme-dua-premis)
-- [Latihan Soal - Soal Silogisme Berbentuk Tiga Premis (20 Soal)](/ringkasan-skd-cpns/docs/latihan-soal/soal-verbal/soal-silogisme-tiga-premis)
+- [Latihan Soal - Soal Silogisme Berbentuk Dua Premis (20 Soal)](/ringkasan-skd-cpns/docs/latihan-soal/soal-verbal/soal-silogisme-dua-permis)
+- [Latihan Soal - Soal Silogisme Berbentuk Tiga Premis (20 Soal)](/ringkasan-skd-cpns/docs/latihan-soal/soal-verbal/soal-silogisme-tiga-permis)
 

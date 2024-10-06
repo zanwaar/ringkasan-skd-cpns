@@ -68,6 +68,12 @@ const config: Config = {
           label: "Ringkasan SKD CPNS",
         },
         {
+          // Menghapus 'type', cukup gunakan href untuk tautan sederhana
+          href: "/ai-funpice",
+          position: "left",
+          label: "Funpice AI Generator",
+        },
+        {
           href: "https://github.com/zanwaar/ringkasan-skd-cpns",
           label: "GitHub",
           position: "right",
@@ -118,13 +124,7 @@ const config: Config = {
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       ({
-        // ... Your options.
-        // `hashed` is recommended as long-term-cache of index file is possible.
         hashed: true,
-        // For Docs using Chinese, The `language` is recommended to set to:
-        // ```
-        // language: ["en", "zh"],
-        // ```
       }),
     ],
   ],
