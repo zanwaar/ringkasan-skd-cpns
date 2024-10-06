@@ -15,14 +15,6 @@ module.exports = {
         jakarta: ['"Plus Jakarta Sans"', ...fontFamily.sans],
         mono: ['"Fira Code"', ...fontFamily.mono],
       },
-      borderRadius: {
-        sm: "4px",
-      },
-      screens: {
-        sm: "0px",
-        lg: "997px",
-      },
-      colors: {},
     },
   },
   plugins: [],

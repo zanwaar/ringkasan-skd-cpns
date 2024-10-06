@@ -2,7 +2,7 @@
 
 ## Deskripsi
 
-**SKD CPNS** adalah aplikasi web yang menyediakan materi ringkasan dan latihan untuk membantu calon peserta mempersiapkan tes Seleksi Kompetensi Dasar (SKD) dalam ujian CPNS (Calon Pegawai Negeri Sipil). Aplikasi ini menyajikan materi penting secara terstruktur dan menyediakan simulasi latihan tes untuk menguji pemahaman pengguna terhadap materi SKD.
+**SKD CPNS** adalah aplikasi web yang menyediakan materi ringkasan dan latihan untuk membantu calon peserta mempersiapkan tes Seleksi Kompetensi Dasar (SKD) dalam ujian Calon Pegawai Negeri Sipil (CPNS). Aplikasi ini menyajikan materi penting secara terstruktur dan menyediakan simulasi latihan tes untuk menguji pemahaman pengguna terhadap materi SKD.
 
 ## Fitur
 
@@ -15,8 +15,8 @@
 ### Prasyarat
 
 Sebelum menginstal, pastikan Anda telah menginstal:
-- [Node.js](https://nodejs.org/) – runtime untuk JavaScript.
-- [Yarn](https://yarnpkg.com/) – manajer paket alternatif untuk npm.
+- [Node.js](https://nodejs.org/) – Runtime untuk JavaScript.
+- [Yarn](https://yarnpkg.com/) – Manajer paket alternatif untuk npm.
 
 ### Cara Instalasi
 
@@ -32,13 +32,21 @@ Sebelum menginstal, pastikan Anda telah menginstal:
     cd ringkasan-skd-cpns
     ```
 
-3. **Instal dependensi** dengan menggunakan npm:
+3. **Instal dependensi** menggunakan npm:
 
     ```bash
-    npm i
+    npm install
     ```
 
-4. **Jalankan aplikasi**:
+4. **Setel variabel lingkungan** (env):
+
+   Buat file `.env` di direktori proyek dan tambahkan baris berikut. Ganti `<YOUR_API_KEY>` dengan API key yang didapat dari [Google AI Studio](https://aistudio.google.com):
+
+    ```env
+    VITE_GOOGLE_GEMINI_AI_API_KEY=<YOUR_API_KEY>
+    ```
+
+5. **Jalankan aplikasi**:
 
     ```bash
     npm start

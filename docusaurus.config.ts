@@ -74,9 +74,10 @@ const config: Config = {
           label: "Funpice AI Generator",
         },
         {
-          href: "https://github.com/zanwaar/ringkasan-skd-cpns",
-          label: "GitHub",
+          // Menghapus 'type', cukup gunakan href untuk tautan sederhana
+          href: "/docs/dukungan-sponsor",
           position: "right",
+          label: "💖 Dukungan dan Sponsor",
         },
       ],
     },
@@ -93,6 +94,12 @@ const config: Config = {
   // Plugin PWA tanpa konfigurasi remark/re-hype math
   plugins: [
     tailwindPlugin, 
+    [
+      "docusaurus2-dotenv",
+      {
+        systemvars: true,
+      },
+    ],
     [
       '@docusaurus/plugin-pwa',
       {

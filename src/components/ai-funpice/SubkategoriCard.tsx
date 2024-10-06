@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Modal from '../ui/Modal';
+import Modal from './ModalGenerateSoal';
 
 // Definisikan interface untuk properti Subkategori
 interface Subkategori {
