@@ -1,6 +1,7 @@
-import { chatSession } from "@site/src/service/AIModel";
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom"; // Import useHistory
+import { chatSession } from "./AiModel";
+
 
 interface ModalProps {
   isOpen: boolean;
@@ -35,8 +36,6 @@ const Modal: React.FC<ModalProps> = ({
       const generatedQuestions = result.response.text(); // Get the generated questions
 
       localStorage.setItem("generatedQuestions", generatedQuestions);
-
-      console.log(generatedQuestions);
 
       // Redirect to the quizzes page
       history.push("/ringkasan-skd-cpns/quiz");

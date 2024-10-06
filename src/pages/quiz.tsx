@@ -2,48 +2,69 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom"; // Import Link
 import { CheckCircle2, Timer, XCircle } from "lucide-react";
 import Layout from "@theme/Layout";
+import BrowserOnly from "@docusaurus/BrowserOnly"; // Import BrowserOnly
 
-const Kuis = () => {
-  // Retrieve the quiz data from local storage
-  const kuisData = localStorage.getItem("generatedQuestions");
-  // const kuis = kuisData ? JSON.parse(kuisData) : null;
-  const kuis = kuisData ? JSON.parse(kuisData) : null; // Fallback to empty array
+// Define types for the quiz data
+interface PilihanJawaban {
+  pilihan: string[];
+  jawabanBenar: number;
+  pembahasan: string;
+}
 
-  // Debug: log the kuis object to check its structure
-  // Log the retrieved quiz data
-  console.log("Kuis Data:", kuis);
+interface Pertanyaan {
+  teksPertanyaan: string;
+  pilihanJawaban: string[];
+  jawabanBenar: number;
+  pembahasan: string;
+}
 
-  // Ensure kuis is available
-  if (!kuis) {
-    return <div className="text-red-500">Data kuis tidak ditemukan.</div>;
-  }
+interface KuisData {
+  judulKuis: string;
+  durasi: string;
+  jumlahSoal: number;
+  pertanyaan: Pertanyaan[];
+}
 
-  // Ekstrak durasi dari data kuis dan konversi ke detik
-  const durasiMenit = parseInt(kuis.durasi); // Ambil angka dari string "5 menit"
-  const [jawabanUser, setJawabanUser] = useState(
-    Array(kuis.jumlahSoal).fill(null)
-  );
+const Kuis: React.FC = () => {
+  const [kuis, setKuis] = useState<KuisData | null>(null);
+  const [jawabanUser, setJawabanUser] = useState<(number | null)[]>([]);
   const [selesai, setSelesai] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(durasiMenit * 60); // Konversi menit ke detik
+  const [timeLeft, setTimeLeft] = useState(0); // Set initial time left to 0
 
+  // Load the quiz data after the component mounts
   useEffect(() => {
-    const timer = setInterval(() => {
-      setTimeLeft((prev) => {
-        if (prev <= 0) {
-          clearInterval(timer); // Hentikan timer jika waktu habis
-          setSelesai(true); // Set quiz sebagai selesai
-          return 0;
-        }
-        return prev - 1;
-      });
-    }, 1000);
+    const kuisData = localStorage.getItem("generatedQuestions");
+    const quiz: KuisData | null = kuisData ? JSON.parse(kuisData) : null;
 
-    // Bersihkan interval saat komponen di-unmount
-    return () => clearInterval(timer);
+    if (!quiz) {
+      console.error("Data kuis tidak ditemukan.");
+      return;
+    }
+    console.log(quiz);
+    const durasiMenit = parseInt(quiz.durasi);
+    setKuis(quiz);
+    setJawabanUser(Array(quiz.jumlahSoal).fill(null));
+    setTimeLeft(durasiMenit * 60);
   }, []);
 
-  const handleJawabanChange = (index, value) => {
+  useEffect(() => {
+    if (timeLeft > 0) {
+      const timer = setInterval(() => {
+        setTimeLeft((prev) => {
+          if (prev <= 0) {
+            clearInterval(timer);
+            setSelesai(true);
+            return 0;
+          }
+          return prev - 1;
+        });
+      }, 1000);
+      return () => clearInterval(timer);
+    }
+  }, [timeLeft]);
+
+  const handleJawabanChange = (index: number, value: number) => {
     const updatedJawabanUser = [...jawabanUser];
     updatedJawabanUser[index] = value;
     setJawabanUser(updatedJawabanUser);
@@ -54,7 +75,7 @@ const Kuis = () => {
   };
 
   const nextQuestion = () => {
-    if (currentQuestion < kuis.pertanyaan.length - 1) {
+    if (currentQuestion < (kuis?.pertanyaan.length || 0) - 1) {
       setCurrentQuestion(currentQuestion + 1);
     }
   };
@@ -65,69 +86,55 @@ const Kuis = () => {
     }
   };
 
-  // Format waktu menjadi menit dan detik
-  const formatTime = (seconds) => {
+  // Format time into minutes and seconds
+  const formatTime = (seconds: number) => {
     const minutes = Math.floor(seconds / 60);
     const remainingSeconds = seconds % 60;
     return `${minutes}:${remainingSeconds < 10 ? "0" : ""}${remainingSeconds}`;
   };
 
   const renderHasil = () => {
+    if (!kuis) return null; // Ensure kuis is not null
+
     return (
-      <Layout
-      title={`Funpice AI Generator`}
-      description="Informasi dan latihan untuk tes CPNS."
-    >
-       <div className="mt-8 p-8 ">
-        <h2 className="text-2xl font-bold">Hasil Jawaban</h2>
-        {kuis.pertanyaan.map((item, index) => (
-          <div key={index} className="flex flex-col mb-5">
-            <div>{item.teksPertanyaan}</div>
-            <div className="font-semibold">
-              Jawaban Anda:
-              {jawabanUser[index] !== null
-                ? item.pilihanJawaban[jawabanUser[index]]
-                : "Belum dijawab"}
+      <Layout title={`Funpice AI Generator`} description="Informasi dan latihan untuk tes CPNS.">
+        <div className="mt-8 p-8 ">
+          <h2 className="text-2xl font-bold">Hasil Jawaban</h2>
+          {kuis.pertanyaan.map((item, index) => (
+            <div key={index} className="flex flex-col mb-5">
+              <div>{item.teksPertanyaan}</div>
+              <div className="font-semibold">
+                Jawaban Anda: {jawabanUser[index] !== null ? item.pilihanJawaban[jawabanUser[index]] : "Belum dijawab"}
+              </div>
+              <div className={"m-0 p-0 " + (jawabanUser[index] === item.jawabanBenar ? "text-green-600" : "text-red-600")}>
+                {jawabanUser[index] === item.jawabanBenar ? (
+                  <>
+                    <CheckCircle2 color="green" size={30} className="inline-block" /> Benar!
+                  </>
+                ) : (
+                  <div className="flex gap-1">
+                    <XCircle color="red" size={30} className="inline-block" />
+                    Salah. {item.pembahasan}
+                  </div>
+                )}
+              </div>
+              <hr />
             </div>
-            <div
-              className={
-                'm-0 p-0' +
-                jawabanUser[index] === item.jawabanBenar
-                  ? "text-green-600"
-                  : "text-red-600"
-              }
-            >
-              {jawabanUser[index] === item.jawabanBenar ? (
-                <>
-                  <CheckCircle2
-                    color="green"
-                    size={30}
-                    className="inline-block"
-                  />{" "}
-                  Benar!
-                </>
-              ) : (
-                <div className="flex gap-1">
-                  <XCircle color="red" size={30} className="inline-block" />
-                  Salah. {item.pembahasan}
-                </div>
-              )}
-            </div>
-            <hr />
-          </div>
-        ))}
-        <Link
-          to="/ringkasan-skd-cpns/ai-funpice"
-          className="inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 hover:text-white transition duration-200"
-        >
-          Kembali
-        </Link>
-      </div>
-    </Layout>
+          ))}
+          <Link
+            to="/ringkasan-skd-cpns/ai-funpice"
+            className="inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 hover:text-white transition duration-200"
+          >
+            Kembali
+          </Link>
+        </div>
+      </Layout>
     );
   };
 
   const renderSoal = () => {
+    if (!kuis) return null; // Ensure kuis is not null
+
     return (
       <>
         <div className="mb-6 p-4 border rounded-lg shadow-md ">
@@ -149,7 +156,7 @@ const Kuis = () => {
           ))}
         </div>
 
-        {/* Tombol Prev dan Next dengan nomor soal */}
+        {/* Prev and Next buttons */}
         <div className="flex justify-between mb-4">
           <div className="text-lg font-semibold">
             Soal {currentQuestion + 1} dari {kuis.pertanyaan.length}
@@ -172,11 +179,11 @@ const Kuis = () => {
           </div>
         </div>
 
-        {/* Tombol Kirim Jawaban */}
+        {/* Submit button */}
         {currentQuestion === kuis.pertanyaan.length - 1 && (
           <div
             onClick={handleSubmit}
-            className="w-full text-center  bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 hover:text-white transition duration-200"
+            className="w-full text-center bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 hover:text-white transition duration-200"
           >
             Kirim Jawaban
           </div>
@@ -186,38 +193,32 @@ const Kuis = () => {
   };
 
   if (selesai) {
-    return renderHasil(); // Menampilkan hasil jika selesai
+    return renderHasil(); // Display results if finished
   }
 
+  // Render the component with BrowserOnly to avoid SSR issues
   return (
-    <Layout
-    title={`Funpice AI Generator`}
-    description="Informasi dan latihan untuk tes CPNS."
-  >
-    <div>
-    <div className="max-w-3xl mx-auto p-4 mt-5">
-      <h1 className="text-3xl font-bold text-center mb-4">{kuis.judulKuis}</h1>
-      <div className="flex flex-row justify-between">
-        <div className="flex flex-col">
-          {/* topic */}
-          <div className="flex self-start mt-3 text-slate-400">
-            <Timer className="mr-2" />
-            <p className="text-center mb-4">{formatTime(timeLeft)}</p>{" "}
-            {/* Timer ditampilkan di sini */}
+    <BrowserOnly>
+      {() => (
+        <Layout title={`Funpice AI Generator`} description="Informasi dan latihan untuk tes CPNS.">
+          <div>
+            <div className="max-w-3xl mx-auto p-4 mt-5">
+              <h1 className="text-3xl font-bold text-center mb-4">{kuis?.judulKuis}</h1>
+              <div className="flex flex-row justify-between">
+                <div className="flex flex-col">
+                  <div className="flex self-start mt-3 text-slate-400">
+                    <Timer className="mr-2" />
+                    <p className="text-center mb-4">{formatTime(timeLeft)}</p>
+                  </div>
+                </div>
+                <Link to="/ringkasan-skd-cpns/ai-funpice">Buat Ulang</Link>
+              </div>
+              {renderSoal()} {/* Display questions if quiz is not finished */}
+            </div>
           </div>
-        </div>
-        <Link 
-        to="/ringkasan-skd-cpns/ai-funpice" 
-      >
-        Buat Ulang
-      </Link>
-     
-      </div>
-      {renderSoal()} {/* Menampilkan soal jika quiz belum selesai */}
-    </div>
-    </div>
-
-    </Layout>
+        </Layout>
+      )}
+    </BrowserOnly>
   );
 };
 
