@@ -138,7 +138,7 @@ Jadi, hasil dari pembagian ini adalah $$ \frac{35}{18} $$ atau $$ 1 \frac{17}{18
 
 ### Contoh Soal (SKD CPNS 2023):
 
-hasil dari $$ 7 \frac{1}{2} : 5 + \frac{3}{4} \times 8 - \frac{1}{8} $$
+hasil dari $7 \frac{1}{2} : 5 + \frac{3}{4} \times 8 - \frac{1}{8}$
 
 - **a.**  8,125
 - **b.**  8,375 
@@ -152,6 +152,7 @@ hasil dari $$ 7 \frac{1}{2} : 5 + \frac{3}{4} \times 8 - \frac{1}{8} $$
 #### Langkah-langkah Penyelesaian:
 
 1. **Ubah bilangan campuran menjadi pecahan**:
+
    $$
    7 \frac{1}{2} = \frac{15}{2}
    $$

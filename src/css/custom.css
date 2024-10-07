@@ -32,6 +32,9 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+@import 'katex/dist/katex.min.css';
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
