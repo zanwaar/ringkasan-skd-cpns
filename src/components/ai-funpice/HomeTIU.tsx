@@ -38,7 +38,7 @@ const materiTIU = {
           judul: "Operasi Pecahan",
           deskripsi:
             "Melakukan operasi matematika dasar dengan bilangan pecahan.",
-          prompt: "",
+          prompt: `{"judulKuis": "Operasi Pecahan - Tantangan Matematika","durasi": "1 menit","jumlahSoal": 2,"pertanyaan": [{"klu": "Pada jenis soal ini, Anda akan diberikan soal operasi pecahan. Tugas Anda adalah menyelesaikan soal tersebut.","teksPertanyaan": "Apa hasil dari $$ 7 \\frac{1}{2} : 5 + \\frac{3}{4} \\times 8 - \\frac{1}{8} $$?","pilihanJawaban": ["A. $$ 8,125 $$","B. $$ 8,375 $$","C. $$ 7,125 $$","D. $$ 7,375 $$","E. $$ 7,500 $$"],"jawabanBenar": 3,"pembahasan": "Hasil dari operasi pecahan tersebut adalah $$ 7,375 $$, yang merupakan hasil dari langkah-langkah perhitungan yang telah dilakukan."},{"klu": "Pada jenis soal ini, Anda akan diberikan soal operasi pecahan. Tugas Anda adalah menyelesaikan soal tersebut.","teksPertanyaan": "Apa hasil dari $$ \\frac{2}{3} + \\frac{1}{6} - \\frac{1}{2} $$?","pilihanJawaban": ["A. $$ \\frac{1}{2} $$","B. $$ \\frac{1}{3} $$","C. $$ \\frac{5}{6} $$","D. $$ \\frac{1}{6} $$","E. $$ 0 $$"],"jawabanBenar": 1,"pembahasan": "Langkah-langkah untuk menyelesaikan soal ini adalah dengan menyamakan penyebut dan melakukan operasi pecahan."}]} buatkan soal serupa dengan format json tambah bebrapa operasi dan pembahasan lengkap untuk perhitungnnya`,
         },
         "2.3": {
           judul: "Perbandingan Kuantitatif",

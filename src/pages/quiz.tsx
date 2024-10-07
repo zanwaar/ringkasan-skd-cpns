@@ -1,30 +1,38 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom"; // Import Link
+import { Link } from "react-router-dom"; 
 import { CheckCircle2, Timer, XCircle } from "lucide-react";
 import Layout from "@theme/Layout";
 import BrowserOnly from "@docusaurus/BrowserOnly";
+import ReactMarkdown from "react-markdown";
+import remarkMath from "remark-math";
+import rehypeKatex from "rehype-katex";
+import "katex/dist/katex.min.css"; 
 
 const Kuis: React.FC = () => {
-  const kuisData = typeof window !== "undefined" ? localStorage.getItem('generatedQuestions') : null;
+  const kuisData =
+    typeof window !== "undefined"
+      ? localStorage.getItem("generatedQuestions")
+      : null;
   const kuis = kuisData ? JSON.parse(kuisData) : null;
 
-
-  if  (!kuis) {
+  if (kuis) {
     return <div className="text-red-500">Data kuis tidak ditemukan.</div>;
   }
 
   const durasiMenit = parseInt(kuis.durasi);
-  const [jawabanUser, setJawabanUser] = useState(Array(kuis.jumlahSoal).fill(null));
+  const [jawabanUser, setJawabanUser] = useState(
+    Array(kuis.jumlahSoal).fill(null)
+  );
   const [selesai, setSelesai] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(durasiMenit * 60); // Konversi menit ke detik
+  const [timeLeft, setTimeLeft] = useState(durasiMenit * 60); 
 
   useEffect(() => {
     const timer = setInterval(() => {
       setTimeLeft((prev) => {
         if (prev <= 0) {
-          clearInterval(timer); 
-          setSelesai(true); 
+          clearInterval(timer);
+          setSelesai(true);
           return 0;
         }
         return prev - 1;
@@ -56,7 +64,6 @@ const Kuis: React.FC = () => {
     }
   };
 
-
   const formatTime = (seconds: number) => {
     const minutes = Math.floor(seconds / 60);
     const remainingSeconds = seconds % 60;
@@ -65,24 +72,67 @@ const Kuis: React.FC = () => {
 
   const renderHasil = () => {
     return (
-      <Layout title={`Funpice AI Generator`} description="Informasi dan latihan untuk tes CPNS.">
+      <Layout
+        title={`Funpice AI Generator`}
+        description="Informasi dan latihan untuk tes CPNS."
+      >
         <div className="mt-8 p-8 ">
           <h2 className="text-2xl font-bold">Hasil Jawaban</h2>
           {kuis.pertanyaan.map((item, index) => (
             <div key={index} className="flex flex-col mb-5">
-              <div>{item.teksPertanyaan}</div>
-              <div className="font-semibold">
-                Jawaban Anda: {jawabanUser[index] !== null ? item.pilihanJawaban[jawabanUser[index]] : "Belum dijawab"}
+              <div>
+                <ReactMarkdown
+                  rehypePlugins={[rehypeKatex]}
+                  remarkPlugins={[remarkMath]}
+                >
+                  {item.teksPertanyaan}
+                </ReactMarkdown>
               </div>
-              <div className={"m-0 p-0 " + (jawabanUser[index] === item.jawabanBenar ? "text-green-600" : "text-red-600")}>
-                {jawabanUser[index] === item.jawabanBenar ? (
+              <div className="font-semibold flex gap-2">
+                Jawaban Anda:{" "}
+                {jawabanUser[index] !== null ? (
                   <>
-                    <CheckCircle2 color="green" size={30} className="inline-block" /> Benar!
+                    {" "}
+                    <ReactMarkdown
+                      rehypePlugins={[rehypeKatex]}
+                      remarkPlugins={[remarkMath]}
+                    >
+                      {item.pilihanJawaban[jawabanUser[index]]}
+                    </ReactMarkdown>{" "}
                   </>
+                ) : (
+                  "Belum dijawab"
+                )}
+              </div>
+              <div
+                className={
+                  "m-0 p-0 " +
+                  (jawabanUser[index] === item.jawabanBenar
+                    ? "text-green-600"
+                    : "text-red-600")
+                }
+              >
+                {jawabanUser[index] === item.jawabanBenar ? (
+                  <div className="flex gap-1">
+                    <CheckCircle2
+                      color="green"
+                      size={30}
+                      className="inline-block"
+                    />{" "}
+                    Benar!
+                  </div>
                 ) : (
                   <div className="flex gap-1">
                     <XCircle color="red" size={30} className="inline-block" />
-                    Salah. {item.pembahasan}
+                    Salah.{" "}
+                    <div>
+                      <ReactMarkdown
+                        rehypePlugins={[rehypeKatex]}
+                        remarkPlugins={[remarkMath]}
+                      >
+                        {item.pembahasan}
+                      </ReactMarkdown>
+                    </div>
                   </div>
                 )}
               </div>
@@ -105,19 +155,36 @@ const Kuis: React.FC = () => {
       <>
         <div className="mb-6 p-4 border rounded-lg shadow-md ">
           <h3 className="text-lg font-semibold text-gray-700">
-            {kuis.pertanyaan[currentQuestion].teksPertanyaan}
+            <ReactMarkdown
+              rehypePlugins={[rehypeKatex]}
+              remarkPlugins={[remarkMath]}
+            >
+              {kuis.pertanyaan[currentQuestion].teksPertanyaan}
+            </ReactMarkdown>
+            {/* <MathKatex expression={kuis.pertanyaan[currentQuestion].teksPertanyaan} /> */}
           </h3>
           {kuis.pertanyaan[currentQuestion].pilihanJawaban.map((pilihan, i) => (
-            <div key={i} className="mt-2">
+            <div key={i} className="flex items-start">
+              {" "}
               <input
                 type="radio"
                 name={`question${currentQuestion}`}
                 value={i}
                 checked={jawabanUser[currentQuestion] === i}
                 onChange={() => handleJawabanChange(currentQuestion, i)}
-                className="mr-2"
+                className="mr-2 mt-2"
               />
-              <label className="text-md">{pilihan}</label>
+              <div className="flex">
+                <label className="text-md">
+                  {" "}
+                  <ReactMarkdown
+                    rehypePlugins={[rehypeKatex]}
+                    remarkPlugins={[remarkMath]}
+                  >
+                    {pilihan}
+                  </ReactMarkdown>
+                </label>
+              </div>
             </div>
           ))}
         </div>
@@ -157,16 +224,21 @@ const Kuis: React.FC = () => {
   };
 
   if (selesai) {
-    return renderHasil(); 
+    return renderHasil();
   }
 
   return (
     <BrowserOnly>
       {() => (
-        <Layout title={`Funpice AI Generator`} description="Informasi dan latihan untuk tes CPNS.">
+        <Layout
+          title={`Funpice AI Generator`}
+          description="Informasi dan latihan untuk tes CPNS."
+        >
           <div>
             <div className="max-w-3xl mx-auto p-4 mt-5">
-              <h1 className="text-3xl font-bold text-center mb-4">{kuis?.judulKuis}</h1>
+              <h1 className="text-3xl font-bold text-center mb-4">
+                {kuis?.judulKuis}
+              </h1>
               <div className="flex flex-row justify-between">
                 <div className="flex flex-col">
                   <div className="flex self-start mt-3 text-slate-400">
