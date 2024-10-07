@@ -15,7 +15,7 @@ const Kuis: React.FC = () => {
       : null;
   const kuis = kuisData ? JSON.parse(kuisData) : null;
 
-  if (kuis) {
+  if (!kuis) {
     return <div className="text-red-500">Data kuis tidak ditemukan.</div>;
   }
 
