@@ -3,12 +3,13 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 import tailwindPlugin from "./tailwind-config.cjs";
 
-import remarkMath from 'remark-math';
-import rehypeKatex from 'rehype-katex';
+import remarkMath from "remark-math";
+import rehypeKatex from "rehype-katex";
 
 const config: Config = {
   title: "Ringkasan SKD CPNS",
-  tagline: "Menggunakan teknologi kecerdasan buatan (AI) untuk memastikan kualitas dan relevansi materi",
+  tagline:
+    "Menggunakan teknologi kecerdasan buatan (AI) untuk memastikan kualitas dan relevansi materi",
   favicon: "img/fun.ico",
 
   url: "https://zanwaar.github.io",
@@ -19,7 +20,7 @@ const config: Config = {
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
- 
+
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
@@ -56,11 +57,11 @@ const config: Config = {
   ],
   stylesheets: [
     {
-      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
-      type: 'text/css',
+      href: "https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css",
+      type: "text/css",
       integrity:
-        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
-      crossorigin: 'anonymous',
+        "sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM",
+      crossorigin: "anonymous",
     },
   ],
   themeConfig: {
@@ -79,17 +80,47 @@ const config: Config = {
           label: "Ringkasan SKD CPNS",
         },
         {
-          // Menghapus 'type', cukup gunakan href untuk tautan sederhana
           href: "/ai-funpice",
           position: "left",
           label: "Funpice AI Generator",
         },
+    
         {
-          // Menghapus 'type', cukup gunakan href untuk tautan sederhana
-          href: "/docs/dukungan-sponsor",
+          type: "html",
           position: "right",
-          label: "💖 Dukungan dan Sponsor",
+          value: `
+            <iframe
+              src="https://ghbtns.com/github-btn.html?user=zanwaar&repo=ringkasan-skd-cpns&type=star&size=large"
+              frameborder="0"
+              scrolling="0"
+              width="70"
+              height="30"
+              title="GitHub Star Button"
+              style="
+                display: inline-block;
+                vertical-align: middle;
+              "
+            ></iframe>`,
         },
+        {
+          type: "html",
+          position: "right",
+          value: `
+          <a href="/ringkasan-skd-cpns/docs/dukungan-sponsor" 
+             style="
+               padding: 5px 7px; 
+               background-color: #E0E0E0; 
+               color: black; 
+               border: none; 
+               border-radius: 5px; 
+               cursor: pointer; 
+               text-decoration: none;
+             ">
+            💖
+          </a>
+        `,
+        },
+     
       ],
     },
     footer: {
@@ -104,7 +135,7 @@ const config: Config = {
 
   // Plugin PWA tanpa konfigurasi remark/re-hype math
   plugins: [
-    tailwindPlugin, 
+    tailwindPlugin,
     [
       "docusaurus2-dotenv",
       {
@@ -118,38 +149,38 @@ const config: Config = {
       },
     ],
     [
-      '@docusaurus/plugin-pwa',
+      "@docusaurus/plugin-pwa",
       {
         debug: true, // Gunakan true untuk development, ubah ke false untuk production
         offlineModeActivationStrategies: [
-          'appInstalled', // Aktifkan saat aplikasi diinstall
-          'standalone', // Aktifkan saat diakses dalam mode standalone
-          'queryString', // Aktifkan saat ada query string di URL
+          "appInstalled", // Aktifkan saat aplikasi diinstall
+          "standalone", // Aktifkan saat diakses dalam mode standalone
+          "queryString", // Aktifkan saat ada query string di URL
         ],
         pwaHead: [
           {
-            tagName: 'link',
-            rel: 'icon',
-            href: '/img/fun.ico', // Ganti dengan icon kamu
+            tagName: "link",
+            rel: "icon",
+            href: "/img/fun.ico", // Ganti dengan icon kamu
           },
           {
-            tagName: 'link',
-            rel: 'manifest',
-            href: '/manifest.json', // Arahkan ke manifest.json untuk PWA
+            tagName: "link",
+            rel: "manifest",
+            href: "/manifest.json", // Arahkan ke manifest.json untuk PWA
           },
           {
-            tagName: 'meta',
-            name: 'theme-color',
-            content: '#8936FF', // Sesuaikan dengan tema situsmu
+            tagName: "meta",
+            name: "theme-color",
+            content: "#8936FF", // Sesuaikan dengan tema situsmu
           },
         ],
       },
     ],
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
-      ({
+      {
         hashed: true,
-      }),
+      },
     ],
   ],
 };
