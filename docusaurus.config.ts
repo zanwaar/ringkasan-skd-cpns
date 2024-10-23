@@ -133,7 +133,7 @@ const config: Config = {
     },
   } satisfies Preset.ThemeConfig,
 
-  // Plugin PWA tanpa konfigurasi remark/re-hype math
+
   plugins: [
     tailwindPlugin,
     [
