@@ -34,6 +34,17 @@ const Modal: React.FC<ModalProps> = ({
       const result = await chatSession.sendMessage(FINAL_PROMT);
       const generatedQuestions = result.response.text();
 
+      // Validate JSON before storing
+      try {
+        JSON.parse(generatedQuestions);
+      } catch (jsonError) {
+        console.error("Invalid JSON response:", generatedQuestions);
+        alert(
+          "Respons dari AI tidak valid. Silakan coba lagi dengan prompt yang berbeda."
+        );
+        return;
+      }
+
       localStorage.setItem("generatedQuestions", generatedQuestions);
 
       history.push("/ringkasan-skd-cpns/quiz");
@@ -109,11 +120,10 @@ const Modal: React.FC<ModalProps> = ({
                 <button
                   type="submit"
                   disabled={!prompt.trim()}
-                  className={`px-4 py-2 rounded text-white transition duration-300 ${
-                    !prompt.trim()
+                  className={`px-4 py-2 rounded text-white transition duration-300 ${!prompt.trim()
                       ? "bg-gray-400 cursor-not-allowed"
                       : "bg-green-500 hover:bg-green-600"
-                  }`}
+                    }`}
                 >
                   Generated Soal
                 </button>

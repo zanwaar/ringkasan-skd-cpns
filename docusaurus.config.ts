@@ -26,6 +26,10 @@ const config: Config = {
     locales: ["en"],
   },
 
+  clientModules: [
+    require.resolve("./src/clientModules/setupEnv.ts"),
+  ],
+
   presets: [
     [
       "classic",
@@ -84,7 +88,7 @@ const config: Config = {
           position: "left",
           label: "Funpice AI Generator",
         },
-    
+
         {
           type: "html",
           position: "right",
@@ -120,7 +124,7 @@ const config: Config = {
           </a>
         `,
         },
-     
+
       ],
     },
     footer: {
