@@ -43,7 +43,7 @@ Sebelum menginstal, pastikan Anda telah menginstal:
    Buat file `.env` di direktori proyek dan tambahkan baris berikut. Ganti `<YOUR_API_KEY>` dengan API key yang didapat dari [Google AI Studio](https://aistudio.google.com):
 
     ```env
-    GOOGLE_GEMINI_AI_API_KEY=<YOUR_API_KEY>
+    REACT_APP_GOOGLE_GEMINI_AI_API_KEY=<YOUR_API_KEY>
     ```
 
 5. **Jalankan aplikasi**:
